@@ -1,0 +1,2630 @@
+BLASTP 2.2.31+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: P4T0K2VM015
+
+
+Database: Proteins from WGS metagenomic projects (env_nr).
+           6,865,992 sequences; 1,357,634,480 total letters
+Query= gi|662488888|gb|AIE48224.1| GagPol [Mya arenaria]
+
+Length=1335
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+gb|ECP38809.1|  hypothetical protein GOS_6308321 [marine metag...  199     1e-53
+gb|ECS76169.1|  hypothetical protein GOS_3419322 [marine metag...  183     2e-48
+gb|EBS55808.1|  hypothetical protein GOS_7418282 [marine metag...  172     7e-45
+gb|ECO95396.1|  hypothetical protein GOS_3424434 [marine metag...  167     7e-43
+gb|EDJ23033.1|  hypothetical protein GOS_1732365 [marine metag...  161     4e-39
+gb|EBZ21236.1|  hypothetical protein GOS_6270935 [marine metag...  148     1e-36
+gb|ECO21988.1|  hypothetical protein GOS_6347348 [marine metag...  143     2e-34
+gb|ECJ00806.1|  hypothetical protein GOS_6034692 [marine metag...  140     8e-34
+gb|ECM52067.1|  hypothetical protein GOS_6097783 [marine metag...  137     1e-32
+gb|EBP43218.1|  hypothetical protein GOS_7912374 [marine metag...  135     1e-32
+gb|ECO41259.1|  hypothetical protein GOS_5548401 [marine metag...  135     2e-32
+gb|EBY31758.1|  hypothetical protein GOS_6341263 [marine metag...  135     4e-32
+gb|ECG30798.1|  hypothetical protein GOS_6303358 [marine metag...  136     4e-32
+gb|EBF22904.1|  hypothetical protein GOS_9632027 [marine metag...  136     3e-31
+gb|ECM50977.1|  hypothetical protein GOS_6142343 [marine metag...  131     1e-30
+gb|ECY52531.1|  hypothetical protein GOS_2345216 [marine metag...  135     4e-30
+gb|ECG47735.1|  hypothetical protein GOS_5602832 [marine metag...  126     7e-29
+gb|ECB85242.1|  hypothetical protein GOS_6234821 [marine metag...  125     8e-29
+gb|ECB71747.1|  hypothetical protein GOS_3280601 [marine metag...  124     1e-28
+gb|ECO22793.1|  hypothetical protein GOS_6318400 [marine metag...  124     2e-28
+gb|EBL55651.1|  hypothetical protein GOS_8552054 [marine metag...  126     4e-28
+gb|ECE57266.1|  hypothetical protein GOS_6162020 [marine metag...  122     4e-28
+gb|ECT36721.1|  hypothetical protein GOS_6264940 [marine metag...  123     7e-28
+gb|ECM73282.1|  hypothetical protein GOS_5243228 [marine metag...  120     5e-27
+gb|ECC76239.1|  hypothetical protein GOS_6129721 [marine metag...  119     1e-26
+gb|EBE12149.1|  hypothetical protein GOS_9817217 [marine metag...  115     4e-25
+gb|EBY31274.1|  hypothetical protein GOS_6357167 [marine metag...  113     2e-24
+gb|ECO39249.1|  hypothetical protein GOS_5636575 [marine metag...  110     1e-23
+gb|ECD46508.1|  hypothetical protein GOS_3343113 [marine metag...  110     1e-23
+gb|ECT11751.1|  hypothetical protein GOS_7089498 [marine metag...  105     8e-23
+gb|ECL58221.1|  hypothetical protein GOS_6326299 [marine metag...  107     9e-23
+gb|ECI05816.1|  hypothetical protein GOS_6322916 [marine metag...  104     8e-22
+gb|ECB85273.1|  hypothetical protein GOS_6233761 [marine metag...  105     8e-22
+gb|EBR19412.1|  hypothetical protein GOS_7639108 [marine metag...  104     1e-21
+gb|ECP38033.1|  hypothetical protein GOS_6334494 [marine metag...  102     3e-21
+gb|ECI05338.1|  hypothetical protein GOS_6338963 [marine metag...  102     3e-21
+gb|EBY37049.1|  hypothetical protein GOS_6129560 [marine metag...  101     1e-20
+gb|ECG30959.1|  hypothetical protein GOS_6297783 [marine metag...  101     1e-20
+gb|ECO11210.1|  hypothetical protein GOS_3286544 [marine metag...  101     1e-20
+gb|ECH21993.1|  hypothetical protein GOS_6154752 [marine metag...  101     1e-20
+gb|ECP46355.1|  hypothetical protein GOS_5993389 [marine metag...  100     3e-20
+gb|ECQ27509.1|  hypothetical protein GOS_6303621 [marine metag...  99.8    4e-20
+gb|ECE35371.1|  hypothetical protein GOS_3298311 [marine metag...  97.4    5e-20
+gb|ECN46923.1|  hypothetical protein GOS_5809717 [marine metag...  96.7    9e-20
+gb|ECC76238.1|  hypothetical protein GOS_6129720 [marine metag...  95.9    7e-19
+gb|ECP88265.1|  hypothetical protein GOS_4318367 [marine metag...  95.1    1e-18
+gb|EBY81431.1|  hypothetical protein GOS_4326034 [marine metag...  92.4    3e-18
+gb|ECQ38616.1|  hypothetical protein GOS_5861773 [marine metag...  94.0    3e-18
+gb|EBR36673.1|  hypothetical protein GOS_7610870 [marine metag...  90.9    2e-17
+gb|EBZ21643.1|  hypothetical protein GOS_6255582 [marine metag...  91.3    2e-17
+gb|ECF49086.1|  hypothetical protein GOS_6042075 [marine metag...  90.1    2e-17
+gb|ECJ86452.1|  hypothetical protein GOS_6154797 [marine metag...  89.4    8e-17
+gb|ECO99579.1|  hypothetical protein GOS_3269801 [marine metag...  89.0    1e-16
+gb|ECI15405.1|  hypothetical protein GOS_5935901 [marine metag...  87.8    2e-16
+gb|EBC50294.1|  hypothetical protein GOS_59630 [marine metagen...  85.1    2e-15
+gb|ECI23529.1|  hypothetical protein GOS_5607134 [marine metag...  84.7    3e-15
+gb|EBF80017.1|  hypothetical protein GOS_9538503 [marine metag...  82.4    5e-15
+gb|EBT36798.1|  hypothetical protein GOS_7285367 [marine metag...  83.6    5e-15
+gb|ECP28815.1|  hypothetical protein GOS_5575719 [marine metag...  82.8    1e-14
+gb|ECF45351.1|  hypothetical protein GOS_6198327 [marine metag...  80.9    2e-14
+gb|ECO29794.1|  hypothetical protein GOS_6034264 [marine metag...  82.0    2e-14
+gb|EBY48665.1|  hypothetical protein GOS_5647889 [marine metag...  79.3    2e-14
+gb|ECD60289.1|  hypothetical protein GOS_6303908 [marine metag...  82.0    2e-14
+gb|ECO41258.1|  hypothetical protein GOS_5548400 [marine metag...  79.7    2e-14
+gb|ECU43885.1|  hypothetical protein GOS_4362818 [marine metag...  80.1    6e-14
+gb|EDB58000.1|  hypothetical protein GOS_1631623 [marine metag...  79.0    1e-13
+gb|ECA08093.1|  hypothetical protein GOS_6307318 [marine metag...  79.0    2e-13
+gb|ECE52112.1|  hypothetical protein GOS_6364275 [marine metag...  79.0    2e-13
+gb|EBR12146.1|  hypothetical protein GOS_7649834 [marine metag...  78.6    2e-13
+gb|ECA97784.1|  hypothetical protein GOS_6208312 [marine metag...  78.6    3e-13
+gb|EBB16748.1|  hypothetical protein GOS_278528 [marine metage...  77.4    6e-13
+gb|ECE47835.1|  hypothetical protein GOS_6317383 [marine metag...  76.3    1e-12
+gb|ECP09618.1|  hypothetical protein GOS_6358254 [marine metag...  75.1    3e-12
+gb|ECC87400.1|  hypothetical protein GOS_5685133 [marine metag...  73.9    4e-12
+gb|ECF41598.1|  hypothetical protein GOS_6342984 [marine metag...  74.3    6e-12
+gb|EBZ20423.1|  hypothetical protein GOS_6302509 [marine metag...  74.3    7e-12
+gb|EBH80177.1|  hypothetical protein GOS_9200170 [marine metag...  70.9    1e-11
+gb|ECL57627.1|  hypothetical protein GOS_6349639 [marine metag...  73.9    1e-11
+gb|ECQ45277.1|  hypothetical protein GOS_5601680 [marine metag...  72.8    1e-11
+gb|ECN45860.1|  hypothetical protein GOS_5852263 [marine metag...  72.4    2e-11
+gb|ECP88266.1|  hypothetical protein GOS_4318368 [marine metag...  71.6    2e-11
+gb|EBR12308.1|  hypothetical protein GOS_7649583 [marine metag...  71.6    2e-11
+gb|ECO99578.1|  hypothetical protein GOS_3269800 [marine metag...  70.9    2e-11
+gb|ECB44927.1|  hypothetical protein GOS_4313506 [marine metag...  71.2    4e-11
+gb|ECC71142.1|  hypothetical protein GOS_6334356 [marine metag...  70.9    5e-11
+gb|EBR00474.1|  hypothetical protein GOS_7665116 [marine metag...  68.6    6e-11
+gb|EBF44289.1|  hypothetical protein GOS_9596825 [marine metag...  72.8    6e-11
+gb|ECR23773.1|  hypothetical protein GOS_5987645 [marine metag...  70.1    7e-11
+gb|ECB00637.1|  hypothetical protein GOS_6083479 [marine metag...  70.1    1e-10
+gb|EBR03994.1|  hypothetical protein GOS_7660496 [marine metag...  69.7    2e-10
+gb|EBG38759.1|  hypothetical protein GOS_9441647 [marine metag...  71.2    2e-10
+gb|ECG44870.1|  hypothetical protein GOS_5725781 [marine metag...  69.3    2e-10
+gb|ECN46209.1|  hypothetical protein GOS_5837327 [marine metag...  67.4    2e-10
+gb|ECE47275.1|  hypothetical protein GOS_6335018 [marine metag...  68.2    3e-10
+gb|EDB58001.1|  hypothetical protein GOS_1631624 [marine metag...  68.2    3e-10
+gb|ECI93325.1|  hypothetical protein GOS_6341272 [marine metag...  66.2    7e-10
+gb|ECK70908.1|  hypothetical protein GOS_6305172 [marine metag...  67.8    7e-10
+gb|ECG29738.1|  hypothetical protein GOS_6338271 [marine metag...  67.8    1e-09
+gb|EBJ86083.1|  hypothetical protein GOS_8827830 [marine metag...  64.3    2e-09
+gb|ECK68338.1|  hypothetical protein GOS_6396431 [marine metag...  64.3    3e-09
+
+ALIGNMENTS
+>gb|ECP38809.1| hypothetical protein GOS_6308321, partial [marine metagenome]
+Length=316
+
+ Score = 199 bits (505),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 110/322 (34%), Positives = 176/322 (55%), Gaps = 12/322 (4%)
+
+Query  478  VVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKLD  537
+            +V K    +R+C+D + LN+   R  YPLP I++++  LS+A +FS  D+ NAF H+++ 
+Sbjct  1    MVAKLDQSVRVCVDYRKLNEITTRDCYPLPRIDEVIDTLSKATLFSAVDLCNAFHHIRVA  60
+
+Query  538  EESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGL--DGVKPIADDILIYGK  595
+            EE    T F T FG + + ++PFG+S  P  ++++LE  + G+    +    DDI+IY +
+Sbjct  61   EEDIPKTAFITKFGLFEYTRLPFGLSNGPSSWERYLECLMAGMMWHEILIYCDDIIIYSQ  120
+
+Query  596  GETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKV  655
+              T       H ++LE++L R     + L   K      ++ F+GH+++ NG +PD +KV
+Sbjct  121  NFT------QHLQRLERVLSRLHSAGLSLKPSKCGFCLKKVKFLGHIVSSNGYQPDPSKV  174
+
+Query  656  EAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDAIWNWTHEHDEAFK  715
+            E+I K+    D   V+  LG+  Y  KF+ N +D+  P+R L   DA + W  E  +AF+
+Sbjct  175  ESISKLLPCKDVAQVRTFLGMTGYYRKFIPNYADLTTPLRLLLKADAKFRWKEEQQQAFE  234
+
+Query  716  NIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQ----EGQPVAYASRALTSTEQN  771
+            ++K  + + P+L Y D      L  DAS   +GA L Q    E + +AYASR L   E N
+Sbjct  235  SLKDKLTSSPILSYPDFTQTFALHTDASTHAIGAVLTQKQDGEEKVIAYASRRLDICEYN  294
+
+Query  772  YAQIEKELLAVVFGFEKFHQFT  793
+            Y   E E LAVV+  + +  + 
+Sbjct  295  YTITELECLAVVYAVKHYRPYV  316
+
+
+>gb|ECS76169.1| hypothetical protein GOS_3419322, partial [marine metagenome]
+Length=306
+
+ Score = 183 bits (465),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 103/298 (35%), Positives = 173/298 (58%), Gaps = 15/298 (5%)
+
+Query  588  DDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENG  647
+            DDI++      F  ++++H + L K+L R KE N+K+  DK E  + E+ ++GH ++E G
+Sbjct  10   DDIIV------FSSSLEEHKKDLMKILNRLKEANLKIQLDKCEFFRKEVQYLGHTVSEEG  63
+
+Query  648  VKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDAIWNWT  707
+            VKP++ K+E I K   P ++K +++ LG + Y  +F+ + + + +P+  L  K+A +N T
+Sbjct  64   VKPNTDKIEIIKKWPIPKNEKEIRQFLGTLGYYRRFIKDFAKLVKPLTGLLRKEADFNIT  123
+
+Query  708  HEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQ----EGQPVAYASR  763
+             E  + F+  KT +   P+L + D     +L  DAS+  +GA L Q    + +P+AYASR
+Sbjct  124  PEIAKCFEKCKTLLTVDPILIFPDFSKEFILTTDASDYAIGAVLSQGPVGKDRPIAYASR  183
+
+Query  764  ALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPLETISKKALHKAPKRLQ  823
+             L STE+NY+ +EKE LA+V+  + F  + YGR+  + +DH+PL      ++  A KR+ 
+Sbjct  184  TLNSTEENYSTLEKEFLAIVWAVKHFRPYLYGRKFKLFTDHQPLTY----SMSDANKRVV  239
+
+Query  824  RMLLRLQLYDFEIIYKKGKDMHIADTLSRAYLQNSCESTSLGEVRSVQSEFEKEVETV  881
+            R  + L+ +D+E+IYK G    +AD LSR    +   +    E     SE + ++ETV
+Sbjct  240  RGKVALEEFDYELIYKPGSQNTVADALSRIK-PDQLNANEQAEAEEPSSESDSDLETV  296
+
+
+>gb|EBS55808.1| hypothetical protein GOS_7418282, partial [marine metagenome]
+Length=278
+
+ Score = 172 bits (436),  Expect = 7e-45, Method: Composition-based stats.
+ Identities = 86/264 (33%), Positives = 149/264 (56%), Gaps = 8/264 (3%)
+
+Query  472  WVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAF  531
+            W S +V+V+K  GK R C+D + LN   ++  YPLP I++ L  LS +++FS  D+ + +
+Sbjct  19   WSSPIVLVRKKDGKRRFCVDYRRLNAVTEQDAYPLPRIDESLDALSGSQLFSTLDLVSGY  78
+
+Query  532  WHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLDGVKPI--ADD  589
+            W V LD ++   + F T  G ++W  +PFG++ AP  FQ+ +E+ L+GL     +   DD
+Sbjct  79   WQVPLDTDAQEKSAFITRSGLWKWKVLPFGLTSAPATFQRLMEQVLQGLHWKTLLLYLDD  138
+
+Query  590  ILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVK  649
+            +++ G           H ++LE++L+R +   +KL   K EL + ++ ++GH+++ +GV 
+Sbjct  139  VIVIGPD------FNTHLQQLEEVLERLQGAGLKLKPTKCELLQPQVRYLGHIVSRDGVA  192
+
+Query  650  PDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDAIWNWTHE  709
+             D  KVEA+ +   P   K +Q  LG V Y  +++ + + I  P+  L  K+ IW WT E
+Sbjct  193  TDPTKVEAVERWPTPRGVKELQGFLGTVGYYLQYIPDFATIARPLHRLVGKEEIWKWTEE  252
+
+Query  710  HDEAFKNIKTAVCNVPVLRYFDSR  733
+               AF +++  +   P+L Y D +
+Sbjct  253  EQSAFDSLRARLSQAPILGYPDPQ  276
+
+
+>gb|ECO95396.1| hypothetical protein GOS_3424434, partial [marine metagenome]
+Length=303
+
+ Score = 167 bits (423),  Expect = 7e-43, Method: Compositional matrix adjust.
+ Identities = 91/269 (34%), Positives = 151/269 (56%), Gaps = 12/269 (4%)
+
+Query  588  DDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENG  647
+            DDI+I    ETF++    H   LE++ +R ++ N+ ++ +K +  +  M ++G+++ E G
+Sbjct  9    DDIIICS--ETFEE----HIALLEEVARRLRQANLTISSEKSKFCRKSMKYLGYVIDEQG  62
+
+Query  648  VKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDAIWNWT  707
+             + D  K++AI++   P+ +K VQR LGV N+  +F+   S +  P+  LT     + W 
+Sbjct  63   WRVDEEKIQAIVQFPTPTTRKEVQRFLGVCNWYRRFIAGFSQLAAPLTNLTSGKIKFRWN  122
+
+Query  708  HEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQEGQ----PVAYASR  763
+               +EAF  +K A+ + PVL   D      + CDAS+T +GA L Q+ +    P++Y S+
+Sbjct  123  PIAEEAFLKLKAALVSAPVLAMPDYSRPFAIACDASDTAIGAVLTQDNEGDEHPISYFSQ  182
+
+Query  764  ALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPLETISKKALHKAPKRLQ  823
+             L+++E+ Y+  E+E LAV+   EKF  +  G R +V  DH  L  +  K++      + 
+Sbjct  183  KLSASERKYSVTERECLAVIRAIEKFRGYVEGIRFIVYCDHAALSYL--KSMKNPTALMS  240
+
+Query  824  RMLLRLQLYDFEIIYKKGKDMHIADTLSR  852
+            R LLRL  +DFEI Y+KG    + D LSR
+Sbjct  241  RWLLRLNAFDFEIRYRKGSINVVPDALSR  269
+
+
+>gb|EDJ23033.1| hypothetical protein GOS_1732365, partial [marine metagenome]
+Length=528
+
+ Score = 161 bits (407),  Expect = 4e-39, Method: Compositional matrix adjust.
+ Identities = 113/386 (29%), Positives = 193/386 (50%), Gaps = 17/386 (4%)
+
+Query  448  EKLKCELQRMEKANIITKVETPTDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLP  507
+            E +K  +  + +  I+    +P  W S +++VKK +G+ R+ +D + +NK  + S YPLP
+Sbjct  138  EAIKKIVTELLQQGIVEPSTSP--WASPVLLVKKKTGEYRMAVDYRSVNKVSQLSAYPLP  195
+
+Query  508  IIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPE  567
+             +++ L  L  +KVFS  D+ + ++ ++L  ++  LT F T  G +++  +PFG+S AP 
+Sbjct  196  DLKECLQRLRGSKVFSGMDLLSGYFQIRLHPDTIPLTAFTTRQGLFQYKVLPFGLSSAPG  255
+
+Query  568  YFQQFLEKNLEGL--DGVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLN  625
+             FQ ++++ L     D  +   DD++++       +  + H + L  +L + +E    L 
+Sbjct  256  LFQSYMQQLLAPFIDDFCEVYLDDVIVHS------ETPQQHHQHLTAILNKLREAKFYLK  309
+
+Query  626  KDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLG  685
+            + K      ++ F+G+ ++ N +     K++AI     P     ++  LG +N+   F+ 
+Sbjct  310  RKKCHFFHHQVDFVGYKISHNSMAMQHDKLDAIRSWPTPRTATQLRSFLGFINFYRSFIK  369
+
+Query  686  NLSDICEPIRTLTHKDA--IWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNT--VLQCD  741
+              S I  P+       A     WT E D AF N K A     VL   D   NT  +LQ D
+Sbjct  370  GFSSITAPLSAAVGNKAKGPITWTDELDAAFANAKAAFLEDAVLYMPDRTGNTPFMLQTD  429
+
+Query  742  ASETGLGATLMQEGQPVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVE  801
+            AS   +   L Q G+ VA  SR L   EQNY+  + ELLA+V   ++FH      ++ V 
+Sbjct  430  ASLIAVAGILSQHGRMVACFSRKLNKAEQNYSIRDLELLAIVESLKRFHYIIATAKIKVY  489
+
+Query  802  SDH---KPLETISKKALHKAPKRLQR  824
+            +DH   + L+T+  +A     +RLQR
+Sbjct  490  TDHCSLQHLDTLRLEAPLMQRRRLQR  515
+
+
+>gb|EBZ21236.1| hypothetical protein GOS_6270935, partial [marine metagenome]
+Length=281
+
+ Score = 148 bits (374),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 100/288 (35%), Positives = 155/288 (54%), Gaps = 16/288 (6%)
+
+Query  424  LHLEIDDSVTPVKMPVRRVPLGLKEKLKCELQRMEKANIITKVETPTDWVSSLVVVKKPS  483
+            L+LE +D   PV +PVRRVP+ L+  L+  L++ME ++II K    + + S L  VKK +
+Sbjct  1    LNLERND---PVYVPVRRVPMALRPWLRERLKQMENSDIIEK-SNGSSYNSPLFTVKKAN  56
+
+Query  484  GKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYL  543
+            GK R   D + LN+ L+ +H+PLP + DLL EL  AK FS  D+++ +++V L+EES   
+Sbjct  57   GKWREVNDFRALNERLRDNHFPLPHLRDLLDELYGAKFFSSIDLRSGYFNVVLEEESREC  116
+
+Query  544  TTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGL--DGVKPIADDILIYGKGETFQD  601
+            T F      Y + ++P GI  +P +FQ+ + K    L         DD+L Y K  T  D
+Sbjct  117  TAFNVEGQTYVYKRLPQGIKVSPMHFQRIMVKTAGDLLRKSCLVFMDDLLAYDK--TAGD  174
+
+Query  602  AVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKM  661
+            A+K  D     LL R  ++   LN +K +    E+ ++G+ ++ +G  P  +KVE+I K 
+Sbjct  175  ALKTID----ILLGRFADQGFLLNAEKCQFGVKEISYLGYTISSSGWVPQWSKVESITKF  230
+
+Query  662  QKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDA----IWN  705
+              P     ++  LG +N+ +  L NL    +P+  L  K      IWN
+Sbjct  231  PIPQTVTQLRSFLGAINFFSASLPNLHITLKPLHELCGKKKGEKEIWN  278
+
+
+>gb|ECO21988.1| hypothetical protein GOS_6347348, partial [marine metagenome]
+Length=307
+
+ Score = 143 bits (360),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 85/278 (31%), Positives = 142/278 (51%), Gaps = 15/278 (5%)
+
+Query  582  GVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGH  641
+            GV+   DD+++ G+      ++ D    L+K+ +R +E  + L  +K  +   E+ F+GH
+Sbjct  3    GVEAYLDDVVVTGQ------SLSDLRDNLQKVFERFREYWVCLKANKCSIGAQEIKFLGH  56
+
+Query  642  LLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKD  701
+            L+  + +K    +V AI +M  P  +K ++RLLG+VN+  +FL N + + +P+ +L  KD
+Sbjct  57   LVDADEIKILPKRVSAITEMAAPKSQKEIRRLLGMVNFARQFLPNFATVAKPLTSLLRKD  116
+
+Query  702  AIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQE-----GQ  756
+            A + W     + F+ I + V   P+L +FD     VLQ DAS  G+G  L  E       
+Sbjct  117  APFMWGTSQQKTFEKIISLVSKAPILSHFDPNRRVVLQTDASSKGVGGALFVELDDGRLH  176
+
+Query  757  PVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPLETISKKALH  816
+            PV + S+A    +  +A  E+E+ A+     K+  +  G +  + +DHK L  +      
+Sbjct  177  PVEFTSKAFDDRQARWATSEQEVYAIFHCVNKWQHYLSGTKFEIFTDHKNLVYLDT----  232
+
+Query  817  KAPKRLQRMLLRLQLYDFEIIYKKGKDMHIADTLSRAY  854
+                +L R  L LQ +DFEI +  G    +AD LSR +
+Sbjct  233  AQSAKLVRWRLALQSFDFEITHIPGVINAVADGLSRLH  270
+
+
+>gb|ECJ00806.1| hypothetical protein GOS_6034692, partial [marine metagenome]
+Length=306
+
+ Score = 140 bits (354),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 91/310 (29%), Positives = 151/310 (49%), Gaps = 30/310 (10%)
+
+Query  467  ETPTDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCD  526
+            E+ + + S +V V+K    +R+C+D + LN  +    +P+P I+D+L  L   K FS  D
+Sbjct  1    ESTSAYASPIVCVRKKDNTMRMCVDYRKLNLKMIPDRHPIPRIQDILDGLGGQKFFSTLD  60
+
+Query  527  VKNAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEG-LDGV-K  584
+            +  A+    + E     T F TP+  Y W ++PFG+  AP  FQ+++ + L G LD V  
+Sbjct  61   MAKAYHQGFIKESCRKYTAFATPWALYEWLRIPFGLKNAPAAFQRYISQALMGLLDQVCM  120
+
+Query  585  PIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLT  644
+               DD+L+YGK  TF    K+H   L+++ KR K + +KL  DK    K E+ ++G L++
+Sbjct  121  AYLDDVLVYGK--TF----KEHVTNLKQVFKRLKSKGVKLRVDKCHFAKQEVRYLGRLVS  174
+
+Query  645  ENGVKPDSAKVEAIMKMQKPSDKKA-VQRLLGVVNYLTKFLGNLSDICEPI---------  694
+            E G +PD   ++A+ K + P +    V+ +LG + Y    + N +   +P+         
+Sbjct  175  EEGFRPDPEDIKALEKFRVPPNNVGEVRSMLGFLGYYRGHVKNFAKRMKPVYDLIKTDKS  234
+
+Query  695  ------------RTLTHKDAIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDA  742
+                        +T+  K  +  WT E       I   + +  V+ Y D     +L CDA
+Sbjct  235  SESPGPAKAKSGKTVYDKRRMVTWTAELQTIIDQIIDTLQSPEVMAYPDFDQPFILNCDA  294
+
+Query  743  SETGLGATLM  752
+            S  G   +L+
+Sbjct  295  SGYGTWCSLV  304
+
+
+>gb|ECM52067.1| hypothetical protein GOS_6097783, partial [marine metagenome]
+Length=282
+
+ Score = 137 bits (344),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 80/278 (29%), Positives = 145/278 (52%), Gaps = 18/278 (6%)
+
+Query  453  ELQRMEKANIITKVETPTDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDL  512
+            E++++  A +I + ++   W S +V+VKKP G  R+CID + LN+  +R+ +P+P I D+
+Sbjct  5    EVKKLLDAGVIERADSA--WSSPVVIVKKPKG-WRLCIDYRKLNEITERAVWPMPPIPDI  61
+
+Query  513  LPELSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETPF----GRYRWNKMPFGISPAPEY  568
+            L  L     F+  D+   +  +++ EE    T F  P       Y++  MPFG++ AP  
+Sbjct  62   LSMLGGCGWFTALDISQGYHRIRIREEDRDKTAFIVPGHCGGALYQYKYMPFGLTNAPST  121
+
+Query  569  FQQFLEKNLEGLDGVKPI-ADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKD  627
+            FQ+F+ + L G      +  DDI+++ K         +H   L+ +  + +  N+ +   
+Sbjct  122  FQRFMGEVLNGTQSFSTVYIDDIIVFSK------TWAEHIEHLKCVFAKLERANLVVRAP  175
+
+Query  628  KFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNL  687
+            K +L  TE+ ++GH +T + + P    V AI + ++P+ KKAV+   G+ NY    + N 
+Sbjct  176  KSQLACTELDYLGHRITRHHITPLEKNVTAIKEFERPTTKKAVRSFCGMANYYRDHIENF  235
+
+Query  688  SDICEPIRTLTH----KDAIWNWTHEHDEAFKNIKTAV  721
+            + +  P+  LT     K  + +W  E ++AF  +K A+
+Sbjct  236  ATLISPLTDLTKGSVAKSVVNDWKEEQEQAFIRVKKAL  273
+
+
+>gb|EBP43218.1| hypothetical protein GOS_7912374 [marine metagenome]
+Length=248
+
+ Score = 135 bits (341),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 75/229 (33%), Positives = 133/229 (58%), Gaps = 7/229 (3%)
+
+Query  638  FIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTL  697
+            ++GH+++E GV  D  K+ A+     P + K +   LG+ +Y  KF+ N  +I  P+ +L
+Sbjct  12   YLGHIISEEGVAIDPFKIGAMQNWLTPRNIKLLHGFLGLTSYYCKFVKNYGEISAPLTSL  71
+
+Query  698  THKDAIWNWTHEHDEAFKNIKTAVCNVPVLR--YFDSRLNTVLQCDASETGLGATLMQEG  755
+              KD I+ W++     F  +K A+  + VL   YF+     +++ DAS  G+GA LMQ+G
+Sbjct  72   LKKD-IFQWSNRASATFDKLKAAMTTMLVLTLLYFNRLF--IIEADASGVGIGAILMQDG  128
+
+Query  756  QPVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPLETISKKAL  815
+            +P+ Y S+AL+ + QN +  +KE+LA+V    ++  +   RR  +++DHK L+   ++ +
+Sbjct  129  RPLTYTSKALSPSHQNKSTYDKEMLAIVRAAMRWRPYLISRRFQIKTDHKSLKYFLERKI  188
+
+Query  816  HKAPKRLQRMLLRLQLYDFEIIYKKGKDMHIADTLSRAYLQNSCESTSL  864
+              +P++ Q+ + +L  +D+EI YKKGK+  + D LS+   Q    + SL
+Sbjct  189  -SSPEQ-QKWVTKLLGFDYEITYKKGKENVLVDALSQLPEQVEVSAVSL  235
+
+
+>gb|ECO41259.1| hypothetical protein GOS_5548401, partial [marine metagenome]
+Length=259
+
+ Score = 135 bits (341),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 81/246 (33%), Positives = 134/246 (54%), Gaps = 8/246 (3%)
+
+Query  440  RRVPLGLKEKLKCELQRMEKANIITKV-ETPTDWVSSLVVVKKPSGKLRICIDPKPLNKA  498
+            R+ P   +++   E++++E   II  + + PT++ S  +   KP G LR   D    NK 
+Sbjct  14   RKAPYARRDEEMREIRKLESGGIIEPIGDRPTEFCSPTICPIKPDGSLRFATDFTYFNKQ  73
+
+Query  499  LKRSHYP-LPIIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWNK  557
+            + R+ +P L   E +     +AK ++  D K  +W + L EES   TTF    G++R+ +
+Sbjct  74   VLRTVHPTLSSWEAVHRIDPKAKFYTTFDCKRGYWQIPLAEESKDYTTFICSLGKFRYTR  133
+
+Query  558  MPFGISPAPEYFQQFLEKNLEGLDGVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKRC  617
+             P G     + + Q  ++ ++GL+G+  IADDILI    ET +  V D    + +LLKRC
+Sbjct  134  APMGFISTGDSYNQRSDQAMKGLNGIVKIADDILI--ASETAEQHVDD----VRELLKRC  187
+
+Query  618  KERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVV  677
+            KE  I LN+ K  L ++E+ F G+L+  NG+K D  K+EA  K   P+ ++ ++  +G+V
+Sbjct  188  KETRITLNRKKMALGQSEVKFAGYLVGLNGLKVDPDKIEAANKFPVPATRQDLRSFMGLV  247
+
+Query  678  NYLTKF  683
+            N   +F
+Sbjct  248  NQFRQF  253
+
+
+>gb|EBY31758.1| hypothetical protein GOS_6341263, partial [marine metagenome]
+Length=277
+
+ Score = 135 bits (339),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 80/275 (29%), Positives = 140/275 (51%), Gaps = 23/275 (8%)
+
+Query  453  ELQRMEKANIITKVETPTDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDL  512
+            E+Q++  A +I +  +P  W SSLV+V+KP G  R+C + K LN+   +  YPLP I+ +
+Sbjct  11   EVQKLLNAGVIKECSSP--WSSSLVLVRKPDGAWRVCSNYKLLNEVTIKDCYPLPRIDTI  68
+
+Query  513  LPELSEAKVFSKCDVKNAFWHVKLDEE--------SSYL-TTFETPFGRYRWNKMPFGIS  563
+            L  L  A  FS  D+  +FW   +D+E        SS+L T F T  G++ WNKMP G+ 
+Sbjct  69   LNALQGATWFSAHDMTASFWQTSMDKEDGGTNGEVSSFLKTAFTTADGQFAWNKMPMGLL  128
+
+Query  564  PAPEYFQQFLEKNLEGL--DGVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERN  621
+             A  + Q+ +++ L  L    V    DD+ +Y       ++   H   L     R ++  
+Sbjct  129  NASAHQQRLMDRILGTLAWKSVVCYVDDVTVY------SNSFDQHLLDLRAFYTRMRQAG  182
+
+Query  622  IKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLT  681
+            ++L   K  L + E+  +GH +  +  +  +AK++A++   +P+  K +++ +G+  Y  
+Sbjct  183  MRLKPSKCHLARREINMLGHAVDGDMRRAGAAKLKAVLDYARPTRIKHLRQFMGLTGYFL  242
+
+Query  682  KFLGNLSDICEPIRTLTHKDAIW----NWTHEHDE  712
+            ++L N + +  P+R L  K         WT  H++
+Sbjct  243  EYLPNYATVSTPLRQLMAKKTTAKLGPRWTKAHED  277
+
+
+>gb|ECG30798.1| hypothetical protein GOS_6303358, partial [marine metagenome]
+Length=314
+
+ Score = 136 bits (342),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 104/319 (33%), Positives = 153/319 (48%), Gaps = 60/319 (19%)
+
+Query  542  YLTTFET-PFGRYRWNKMPFGISPAPEYFQQFLEKNLEGL-----------------DG-  582
+            +LT F T   G+  + +MPFG+  AP  FQ+ ++  L  L                 DG 
+Sbjct  1    HLTAFNTWTHGQMEFVRMPFGLKGAPSTFQRAMQCILHPLTCDAPQVAWYHKQPKEDDGK  60
+
+Query  583  -----VKPI-------------ADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKL  624
+                   P+              DD+ I+G         ++H   L K+LKR +   + L
+Sbjct  61   AAATVAAPVKWDASWRRIASLYIDDVCIHGTA-------RNHVNDLAKVLKRLRGNGVSL  113
+
+Query  625  NKDKFELHKTEMPFIGHLL-TENGVKPDSAKVEAIMKM-QKPSDKKAVQRLLGVVNYLTK  682
+               K +   T+  F+GHL+  + GV PD AKVEAI  M  +PS    ++ LLG  +YL K
+Sbjct  114  KMVKCDFAVTQGKFLGHLVKAKQGVAPDPAKVEAIAGMVDRPSTIADLRTLLGASSYLRK  173
+
+Query  683  FLGNLSDICEPIRTLT----HKDAIW---NWTHEHDEAFKNIKTAVCNVPVLRYFDSRLN  735
+            F+ + +D+ + +R +     HK A     +WT E + +FK +K A+   PVL + D    
+Sbjct  174  FIPDYADLTKALRDVQRHYKHKTAHIRDEHWTAECESSFKGLKAALTTAPVLAFPDFSKP  233
+
+Query  736  TVLQCDASETGLGATLMQEGQ-----PVAYASRALTSTEQNYAQIEKELLAVVFGF--EK  788
+             +L CDAS+  LGA L+Q  +     P+AYASR L   E+ YA  +KE  AV F    E+
+Sbjct  234  FILLCDASKHQLGAALVQLSEDGTERPLAYASRTLNDAEKKYAITDKEGAAVCFAIRNEQ  293
+
+Query  789  FHQFTYGRRVVVESDHKPL  807
+            F  F    +VV+ +DH  L
+Sbjct  294  FRPFLLHSKVVIVTDHSSL  312
+
+
+>gb|EBF22904.1| hypothetical protein GOS_9632027, partial [marine metagenome]
+Length=560
+
+ Score = 136 bits (343),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 117/470 (25%), Positives = 200/470 (43%), Gaps = 59/470 (13%)
+
+Query  717   IKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQEGQPVAYASRALTSTEQNYAQIE  776
+             +K  +   PVL   D      L  DAS   +GA L Q+G PVA+ SR L+ TE NY   +
+Sbjct  1     LKDKMTAYPVLHLPDQSRPFELTTDASNFAIGAVLSQDGHPVAFHSRKLSDTEHNYPVRD  60
+
+Query  777   KELLAVVFGFEKFHQFTYGRRVVVESDHKPLETISKKALHKAPKRLQRMLLRLQLYDFEI  836
+             KE LA++   +K+  +   +  +V +DH+ L+ I  + +     R  R +  L  +D +I
+Sbjct  61    KEALALIDALKKWRVYLLDKHTIVFTDHRSLQHIDTQQVLTG--RWARWIEFLADFDLDI  118
+
+Query  837   IYKKGKDMHIADTLSRAYLQNSCESTSLGEVRSVQSEFEKEVETVCLTDFLAVTPSRQEK  896
+              Y KGKD H+AD LSR    N+  + +     +V S+ E +++T+  T            
+Sbjct  119   RYVKGKDNHVADALSRMAETNAVATATSP---TVSSDLEDKIKTLLST------------  163
+
+Query  897   IRAATQLDPTLAIVIEQIKCGWISKETPPEAKPYFNIRDELSVENNIIFRGE--------  948
+                    D   A + + +K     ++T P++       D   + N++++  E        
+Sbjct  164   -------DSDFAAIYKALK-----EDTTPDSPDAKAKMDRYELHNDLLYYVEHPDHPQDV  211
+
+Query  949   --RCVIPRCMRRDILDQIHT-----HIGVEGCLNRARQCVFWPNMTSEIKDFIGKCEACQ  1001
+               R  +P+  R  IL + H      H GV    +      +WP M  ++  ++  C++CQ
+Sbjct  212   QHRLCVPKDARLAILQEHHDTPVAGHQGVHRTHSTIATRFYWPRMRDDVHRYVTSCKSCQ  271
+
+Query  1002  SFARKQCKEP--LLNHDVPDRPWAKVGTDIFT---LDDNNYLVTVDYFSNFFEIDKLEDM  1056
+                 +Q   P  L    +P  PW+ +  D+ T        +   V +     +   L   
+Sbjct  272   RHKPRQTSTPGQLQPLPIPTEPWSDISMDLITNLPKTKGKHDAIVVFVDRLTKRCHLSPT  331
+
+Query  1057  TSRCVIGKLKQHFA-----RHGIPNQLVSDNAQTFKSEKFKQFTLQWDFEHVTSSARYPQ  1111
+              S C    +   F       HG+P ++VSD    F    +KQ           S+A++PQ
+Sbjct  332   VSSCSAKDVAAIFVDTIFKHHGLPQRIVSDRDPRFTGAFWKQTFKLLGSTLAMSTAQHPQ  391
+
+Query  1112  SNGKAE---SAVKRAKSLIKKCKHSHTDPMLALL--NLRNTPLQSTGYSP  1156
+             ++G+ E     V+ A       +H + D +L L+  ++ N+   ST  +P
+Sbjct  392   TDGQTERMNRVVEEALRHFINYRHDNWDELLPLVEFSINNSVNSSTKVTP  441
+
+
+>gb|ECM50977.1| hypothetical protein GOS_6142343, partial [marine metagenome]
+Length=282
+
+ Score = 131 bits (329),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 82/285 (29%), Positives = 137/285 (48%), Gaps = 22/285 (8%)
+
+Query  827   LRLQLYDFEIIYKKGKDMHIADTLSRAYLQNSCESTSLGEVRSVQSEFEKEVETVCLTDF  886
+             L L  YD++++Y+ G     AD LSR  LQ            + + +      +V + + 
+Sbjct  14    LYLSAYDYKLLYRPGSQNGNADGLSRLPLQ------------AEEGDISSPSVSVHMVEM  61
+
+Query  887   LAVTPSRQEKIRAATQLDPTLAIVIEQIKCGWISKETPPEA-KPYFNIRDELSVENNIIF  945
+             +    S+ E +RA ++ D  L+ V+  I+ GW   +       PY  I+DEL+VE   + 
+Sbjct  62    VHAPVSQAEVVRATSK-DKILSKVMSHIQKGWEDADGRDHTLGPYRAIKDELAVEGGTVL  120
+
+Query  946   RGERCVIPRCMRRDILDQIH-THIGVEGCLNRARQCVFWPNMTSEIKDFIGKCEACQSFA  1004
+              G R VIP  +R  +L ++H  H  V    + AR   +WP M  +I++ +  CE C    
+Sbjct  121   WGGRVVIPTSLREGVLQELHEAHTRVSRMKSLARSYFWWPGMDKDIEEMVKACELC---G  177
+
+Query  1005  RKQCK---EPLLNHDVPDRPWAKVGTDIF-TLDDNNYLVTVDYFSNFFEIDKLEDMTSRC  1060
+             R QC     P  + +VP  PW ++  D         +L+ +D +S + E++ + + TS  
+Sbjct  178   RSQCSPAAAPAHSWEVPSGPWQRIHLDFAGPFMGRMFLIAIDAYSRWIEVEMMGEATSIA  237
+
+Query  1061  VIGKLKQHFARHGIPNQLVSDNAQTFKSEKFKQFTLQWDFEHVTS  1105
+              + +L++ FA HG+P   V+DN   F  ++FK F  +    HV S
+Sbjct  238   TVNRLRRIFATHGLPLTTVTDNGPAFVGQEFKDFMSKNQIRHVYS  282
+
+
+>gb|ECY52531.1| hypothetical protein GOS_2345216, partial [marine metagenome]
+Length=774
+
+ Score = 135 bits (339),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 89/335 (27%), Positives = 162/335 (48%), Gaps = 25/335 (7%)
+
+Query  430  DSVTPVKMPVRRVPLGLKEKLKCELQRMEKANIITKVETPTDWVSSLVVVKKPSGKLRIC  489
+            D+  P K P R     L+E L+ +L +      I    +P  + + ++   K  G LR+C
+Sbjct  446  DAKPPSKQPYRLSTRELEE-LRSQLDKYLSKGWIRHSSSP--YGAPILFAPKKDGGLRMC  502
+
+Query  490  IDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETP  549
+            +D + LN        PLP  +D++  LS+++ F+  D+++ +  +++  +    T   T 
+Sbjct  503  LDFRELNAITVPDTTPLPQFDDVIDRLSQSRWFTALDLRSMYHMIRIHPDHIQKTALNTA  562
+
+Query  550  FGRYRWNKMPFGISPAPE--------YFQQFLEKNLEGLDGVKPIADDILIYGKGETFQD  601
+            FG++ +  +PFG+  AP         YFQ +L K +E         DDILI+        
+Sbjct  563  FGKFEFLVLPFGLMNAPALATRMMNTYFQPYLRKFVEIY------IDDILIHSA------  610
+
+Query  602  AVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKM  661
+             ++DH + LE +L   +++ +     K    + E+ ++GHL+ +  +     K+EAI   
+Sbjct  611  TLEDHLQHLETVLTILQDKKLYAAPSKCFFVRKELDYLGHLIKDGYLAMQPNKIEAITNH  670
+
+Query  662  QKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDAIWNWTH--EHDEAFKNIKT  719
+              P +   ++  LG+  Y  +F+  ++DI +P+  LT K+AIW W      D+A++ +  
+Sbjct  671  PPPRNLPELRTFLGLAGYYRRFIPRMADIIKPLTELTRKNAIWRWPQGGAEDQAYRQLLQ  730
+
+Query  720  AVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQE  754
+             +   P+L   D     V+  DAS+  L A L+Q+
+Sbjct  731  MLTAKPLLTLPDQTKPFVIATDASKYALAAVLLQD  765
+
+
+>gb|ECG47735.1| hypothetical protein GOS_5602832, partial [marine metagenome]
+Length=302
+
+ Score = 126 bits (316),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 70/229 (31%), Positives = 118/229 (52%), Gaps = 10/229 (4%)
+
+Query  470  TDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKN  529
+            + W S L +  KP G+ R C D +  N    +  Y +P I+D +  L+   VFSK D+  
+Sbjct  2    SPWSSPLHIAPKPGGRWRPCGDFRRSNTVTIKDRYTIPRIQDFVANLAGKTVFSKVDLVK  61
+
+Query  530  AFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLDGVKPIADD  589
+             F  + + +E    T   TPFG + + +MPFG+  AP+ FQ+ ++   + LD +    DD
+Sbjct  62   GFHQIPIRKEVQQKTAVSTPFGLFEFQRMPFGLCNAPQTFQRLMDNIFQDLDFLFVYLDD  121
+
+Query  590  ILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVK  649
+            +L+  K ++      DH + L  L  R +   + + +DK E    E+ F+GH ++ + +K
+Sbjct  122  VLVASKNKS------DHKKHLSILFDRLEVHGLVIQEDKCEFGVEEIVFLGHSVSRHRIK  175
+
+Query  650  PDSAKVEAIMKMQKPSDK----KAVQRLLGVVNYLTKFLGNLSDICEPI  694
+            P   K++AI    +PS      K  +R LG+ NY  +F+ N + + +PI
+Sbjct  176  PMPLKIKAIKDYPEPSKAKDPVKVTERFLGMWNYYHRFVPNAAKVLKPI  224
+
+
+>gb|ECB85242.1| hypothetical protein GOS_6234821, partial [marine metagenome]
+Length=264
+
+ Score = 125 bits (313),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 73/266 (27%), Positives = 141/266 (53%), Gaps = 10/266 (4%)
+
+Query  423  ELHLEIDDSVTPVKMPVRRVPLGLKEKLKCELQRMEKANIITKVETPTDWVSSLVVVKKP  482
+            E+ L++     P +   R +   + E L+ +L++ ++  +I   E+ +++ S LV VKK 
+Sbjct  1    EVELKLKAGAKPPQARARPLNPPMLENLREQLRQWQEDGVIE--ESTSEFSSPLVPVKKK  58
+
+Query  483  SGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSY  542
+            SG++R  +D + LN  L+   +PLP I  LL + +  +++S  DV  AF  +K+   S  
+Sbjct  59   SGEIRWAVDYRALNSVLEGDSFPLPNIAQLLDQAAGYEIYSTLDVSQAFLSIKIASSSRG  118
+
+Query  543  LTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGL--DGVKPIADDILIYGKGETFQ  600
+             T+F  P G +++ ++PFG+  +P+ + +F+   L+GL    +    DD+L+        
+Sbjct  119  YTSFVCPLGSFQFGRLPFGLKVSPQIYSRFIAAALKGLANGNISVYLDDVLLG------S  172
+
+Query  601  DAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMK  660
+            +  K+H  KL +LL+  ++  + L   K +L + ++ F+GH L+++G+    A    I  
+Sbjct  173  NDAKEHLEKLIQLLEAHRKAGLLLKPSKCKLFREKIEFLGHELSKDGISTSPAHTSVICA  232
+
+Query  661  MQKPSDKKAVQRLLGVVNYLTKFLGN  686
+              +P   K +   LG+  Y ++F+ N
+Sbjct  233  WSRPVTGKELASFLGLCTYYSQFIPN  258
+
+
+>gb|ECB71747.1| hypothetical protein GOS_3280601, partial [marine metagenome]
+Length=242
+
+ Score = 124 bits (311),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 70/221 (32%), Positives = 125/221 (57%), Gaps = 13/221 (6%)
+
+Query  600  QDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIM  659
+            +D+++DH  KL+++L R +  N+K+N  K      E+ ++G++LT NG+KP   K+ AI+
+Sbjct  3    KDSLEDHLAKLKQVLIRLQNANLKVNAAKSSFCMDEVEYLGYILTRNGIKPMPEKISAIL  62
+
+Query  660  KMQKPSDKKAVQRLLGVVNYL-------TKFLGNLSDIC------EPIRTLTHKDAIWNW  706
+             ++ P + K ++R LG+V Y        +++L  L+D+       +  R    K   W+W
+Sbjct  63   AIEAPKNVKELRRFLGMVQYYRDLWERRSEYLAPLTDLVGECGHTKVTRRNKTKKKPWHW  122
+
+Query  707  THEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQEGQPVAYASRALT  766
+               H ++F +IK  +     L Y D  +   +  DAS   LGA ++Q+ +P+AY SR L+
+Sbjct  123  DDSHQKSFDSIKRTMARHVSLAYPDYSIPFEVYTDASSRQLGAVIVQKNRPLAYFSRKLS  182
+
+Query  767  STEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPL  807
+             T++ Y+  E +LL++V   ++F    +G+R+ V +DHK L
+Sbjct  183  ETQRKYSVTELDLLSIVETPKEFKGILWGQRIKVYTDHKNL  223
+
+
+>gb|ECO22793.1| hypothetical protein GOS_6318400, partial [marine metagenome]
+Length=293
+
+ Score = 124 bits (312),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 77/280 (28%), Positives = 143/280 (51%), Gaps = 22/280 (8%)
+
+Query  460  ANIITKVETPTDWVSSLVVVKKPSGKL------RICIDPKPLNKALKRSHYPLPIIEDLL  513
+            A II K +    + ++LVV  K   +       RIC D + +NK  +   +  P +ED++
+Sbjct  8    AGIIVKADKHAKYATNLVVAAKRDAETGLWTSHRICQDLRSVNKITETDFFKPPPLEDII  67
+
+Query  514  PELSEAKVFSKCDVKNAFWHVKLDEESSYLTTF-ETPFGRYRWNKMPFGISPAPEYFQQF  572
+             E    K+    D+  AF+ +K+  E+S L TF +     + + +M FG   A  +FQ+ 
+Sbjct  68   MEACTYKILGTMDLSKAFYQIKVSAETSALLTFWDGRHNLWSYTRMCFGAKSASAHFQRV  127
+
+Query  573  LEKNLEGLDGV-KPIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFEL  631
+            +E  L GL+   K   DD++I      F +   D    +  +L+R ++  ++++  K  L
+Sbjct  128  VEHTLRGLEHCCKAYIDDVVI------FANTASDFIAAVGTVLQRFRDVGLRVHPTKSCL  181
+
+Query  632  HKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLG-----N  686
+                +P++G+L+  N + P  AKV+AI ++ +P DK +++  LG+ NY    +G     +
+Sbjct  182  GADSLPYLGYLVGNNKLLPQEAKVKAIQELSRPVDKTSLRSFLGICNYYRGLVGKPGLPH  241
+
+Query  687  LSDICEPIRTL---THKDAIWNWTHEHDEAFKNIKTAVCN  723
+             +++ +P+  L   + KD   +W +E +EAF  +K  +C+
+Sbjct  242  YAEVVKPLNDLLKESCKDVSSSWGNEQEEAFLEVKRRLCD  281
+
+
+>gb|EBL55651.1| hypothetical protein GOS_8552054, partial [marine metagenome]
+Length=458
+
+ Score = 126 bits (316),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 124/467 (27%), Positives = 198/467 (42%), Gaps = 65/467 (14%)
+
+Query  655   VEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDAIWNWTHEHDEAF  714
+             ++AI  M+ P DK  ++R LG+VN+  KF+   S+I  P+  LT     + WT+ H EAF
+Sbjct  3     LQAIENMKPPKDKSELKRYLGMVNFNVKFVRKGSEILAPLYKLTSAKVDYKWTNIHQEAF  62
+
+Query  715   KNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQEGQ----PVAYASRALTSTEQ  770
+               IK  + + P L +F      VL  D+S   +G TL Q  +    P+ Y S++L   + 
+Sbjct  63    DKIKAELLSEPTLSHFKPGSKLVLVTDSSGHAVGGTLYQVVKDVFSPLGYFSKSLQGPDL  122
+
+Query  771   NYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPLETISKKAL-HKAPKRLQRMLLRL  829
+                   KEL A+ +G + F  F          DHK L  + ++A   K   +L  +   L
+Sbjct  123   KRPMRIKELFALCWGIQFFEYFLINTEFDAYVDHKSLLYLFREARKSKLDIKLCNVHNYL  182
+
+Query  830   QLYDFEIIYKKGK--DMHIADTLSRAYLQNSCESTSLGEVRSVQSEFEKEVETVCLTDFL  887
+             Q ++F II+K G   +M  AD  SR           L + RS  S+ E++    C+ DF 
+Sbjct  183   QAFNFNIIHKNGASPEMASADFFSR-----------LPKHRS--SDLERD----CI-DFF  224
+
+Query  888   AVTPSRQEKIRAATQLDPTLAIVIE-----------------QIKCGWISKETPPEAKPY  930
+              V     E I A   L   +    E                 Q K   +     P+ K  
+Sbjct  225   DV----DETIFAVHTLSNDVIFSFENRSFTSEEMAAAQNDCQQTKTLIVKSRINPKQK--  278
+
+Query  931   FNIRDELSVENNIIFRGERCVIPRCMRRDILDQIHT---HIGVEGCLNRARQCVFWPNMT  987
+                   L++++N+++  +R V+P  +  + +  +HT   H G +  L   R+  F  N+ 
+Sbjct  279   -----RLTIKDNVLYSNDRLVLPSRIADEFIQYLHTITAHAGSQQLLQMLRK-FFISNIQ  332
+
+Query  988   SEIKDFIGKCEACQSFARKQCKEPLLNHD--VPDRPWAKVGTDIFTL-----DDNNYLVT  1040
+              +++     CE C      +   P L  D      P+ KV  D+            YL+T
+Sbjct  333   EKVRAITSSCETCIRLKPLKELRPSLIKDRKFAQLPFEKVFIDLVDYGRPDASGKRYLLT  392
+
+Query  1041  -VDYFSNFFEIDKLEDMTSRCVIGKLKQHFARHGIPNQLVSDNAQTF  1086
+              VD  + + + + L + +   V   L +   RHGI    +SDN + F
+Sbjct  393   CVDSLTGYLDGEPLSNKSDNLVSKALLKLILRHGISQNCISDNGREF  439
+
+
+>gb|ECE57266.1| hypothetical protein GOS_6162020, partial [marine metagenome]
+Length=218
+
+ Score = 122 bits (305),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 76/216 (35%), Positives = 105/216 (49%), Gaps = 6/216 (3%)
+
+Query  961   LDQIHTHIGVEGCLNRARQCVFWPNMTSEIKDFIGKCEACQSFARKQCKEPLLNHDVPDR  1020
+             +D +  H GV      ARQ  FWP + S+I     +C +C   A  Q  E ++    PD 
+Sbjct  1     MDYMLGHQGVSSMKAAARQRFFWPGLDSDITQVRAQCRSCNQIAPSQAPERMMLTPDPDL  60
+
+Query  1021  PWAKVGTDIFTLDDNNYLVTVDYFSNFFEIDKLEDMTSRCVIGKLKQHFARHGIPNQLVS  1080
+             P+ KV  D   +    YLV  D FS + E+   +    R V  +L   F  +G+PN++ S
+Sbjct  61    PFEKVAMDFCQIAGKTYLVYADRFSGWTEVALPKSTCFRDVKKELLLWFRNYGVPNEIAS  120
+
+Query  1081  DNAQTFKSEKFKQFTLQWDFEHVTSSARYPQSNGKAESAVKRAKSLI-----KKCKHSHT  1135
+             D    F S +F+ F   W  +   SSA Y QSNG+AE+AVK  K L+     K     +T
+Sbjct  121   DGGPPFNSYEFENFLKAWGVDFRKSSAYYAQSNGRAEAAVKVVKRLLMDNCDKVTGQINT  180
+
+Query  1136  DPML-ALLNLRNTPLQSTGYSPAEQSMNRQTRTLLP  1170
+             +    AL+  RNTP Q TG  P+E    R+ R  LP
+Sbjct  181   EAATRALMIHRNTPNQVTGMCPSELLFGRKMRDHLP  216
+
+
+>gb|ECT36721.1| hypothetical protein GOS_6264940, partial [marine metagenome]
+Length=292
+
+ Score = 123 bits (308),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 79/291 (27%), Positives = 141/291 (48%), Gaps = 31/291 (11%)
+
+Query  530  AFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLDGVKPIADD  589
+            AF  V++  +    T  +TP+G Y + ++  G+S + + FQ+ +E  LEG+ GV    DD
+Sbjct  4    AFHQVRIAAKDQMKTAVKTPWGVYFFKRLAMGLSNSAQTFQRVVEHALEGVSGVFVYLDD  63
+
+Query  590  ILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVK  649
+            +LIY            H+ K+E++ ++ +E  + ++  K +  K  + ++G+ ++++G++
+Sbjct  64   LLIYSDEA-------GHEAKVEEVFQKLEEAGLSISLKKCQFEKESLEYLGYEVSQSGIR  116
+
+Query  650  PDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNL------------SDICEPIRTL  697
+            P S K+ AI K+  P  +K +   LG +NY    LGNL            ++I  P+ +L
+Sbjct  117  PLSRKIAAIQKLPVPKTQKQMLHYLGAINYFRASLGNLPPDDAGTKARSAAEILMPLYSL  176
+
+Query  698  --------THKDAIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGA  749
+                    T  + IW  +    +A+++ K  + N  VL + D +    L CDAS + +GA
+Sbjct  177  ATCKIAKGTTFEEIWTNSPRTRKAYEDSKKLLTNAIVLNFPDPQAPLALTCDASLSAMGA  236
+
+Query  750  TLMQE----GQPVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGR  796
+             L Q      +P+   SR+    +Q +    +E  AV      FH    GR
+Sbjct  237  VLEQHVDGCWRPLGCWSRSFKPDKQKWTSFRRETYAVQQALRYFHTDIAGR  287
+
+
+>gb|ECM73282.1| hypothetical protein GOS_5243228, partial [marine metagenome]
+Length=301
+
+ Score = 120 bits (302),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 77/240 (32%), Positives = 118/240 (49%), Gaps = 12/240 (5%)
+
+Query  462  IITKVETPTDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKV  521
+            +I    +P  W S L+++ K  G LR+  D +  NK LK+  YPLP I+ +  E +  + 
+Sbjct  25   VIKPANSP--WGSPLLILPKKDGGLRVVQDMRECNKRLKKGGYPLPRIDQVYSECAGKRR  82
+
+Query  522  FSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEG--  579
+            FS  D  + FW   LDEES  LT F T  G+++W  +P G + +P  FQ  + +      
+Sbjct  83   FSAFDALSGFWQSALDEESQPLTAFPTHRGQFQWVVLPQGCAVSPGLFQAEMNRIFGPAL  142
+
+Query  580  LDGVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFI  639
+               +    DDIL Y       D ++ H   L+KL     +  I L   K  L    +  +
+Sbjct  143  WQFLACYVDDILCY------SDDIEQHLHHLDKLFYLAYKGGITLKAKKTVLCAESLLVL  196
+
+Query  640  GHLLTENGVKPDSAKVEAIMKMQKPSDKKA--VQRLLGVVNYLTKFLGNLSDICEPIRTL  697
+            G++L+++GV+PD AKV ++ +    S      V+  LG+ N   KF  NLS +  P+R L
+Sbjct  197  GYILSKDGVQPDPAKVRSLQEFHLDSSSTVHKVRSFLGLANCFIKFTPNLSKVLTPLRVL  256
+
+
+>gb|ECC76239.1| hypothetical protein GOS_6129721, partial [marine metagenome]
+Length=301
+
+ Score = 119 bits (299),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 87/300 (29%), Positives = 146/300 (49%), Gaps = 23/300 (8%)
+
+Query  756   QPVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPLETISKKAL  815
+             +PV + +RA TS E+ Y+QIEKE L +  G      +  G + V   DHKPL  +  K  
+Sbjct  15    RPVHHTARAWTSVEKGYSQIEKESLGLYSGIVSNRMYLLGTKFVAVVDHKPLLPLFNKVT  74
+
+Query  816   HKAPKRLQRMLLRLQLYDFEIIYKKGKDMHIADTLSRAYLQNSCESTSLGEVRSVQSEFE  875
+                  R+ R  ++L  +DFE++Y+ G       T    Y      + + G+  + + E  
+Sbjct  75    RPKQARVDRHRMKLAAFDFEVVYEPGT------TNPCDYGSRHPPAAARGQDEAARQEQG  128
+
+Query  876   KEVETVCLTDFL-------AVTPSRQEKIRAATQLDPTLAIVIEQIKCGWISKETPPEAK  928
+             +E +T    + L       AVT   ++ +R  T  D TL  + E I  G    +  P   
+Sbjct  129   EEDDTEVYVNRLIQDQLPQAVT---RKLLRRETAKDETLQKLREDINTG----KCRPALH  181
+
+Query  929   PYFNIRDELSVENNIIFRGERCVIPRCMRRDILDQIH-THIGVEGCLNRARQCVFWPNMT  987
+              Y  I +EL+V + ++ RGE+ +IP+ ++ +++   H  H G +  L   RQ V++PNM 
+Sbjct  182   RYQQIFEELAVVDGLVVRGEQLIIPQALQGEVIQLAHEGHQGQDKTLQLLRQSVWFPNMG  241
+
+Query  988   SEIKDFIGKCEACQSFARKQCKEPLLNHDVPDRPWAKVGTDI-FTLDDNNYL-VTVDYFS  1045
+             +E+++F+  C  CQ+   +   EPL   ++P  PW ++  D    +    YL V +D +S
+Sbjct  242   AEVREFMESCLPCQAAQPRTETEPLKPTELPAGPWQELHADYKGPIGKEYYLHVLIDQYS  301
+
+
+>gb|EBE12149.1| hypothetical protein GOS_9817217, partial [marine metagenome]
+Length=328
+
+ Score = 115 bits (288),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 90/277 (32%), Positives = 131/277 (47%), Gaps = 33/277 (12%)
+
+Query  1007  QCKEPLLNHDVPDRPWAKVGTDIFTLDDNNYLVTVDYFSNFFEIDKLEDMTSRCVIGKLK  1066
+             Q KEP       D P + +  D+F     +YLV VD FSN+   ++L   T+  V   L 
+Sbjct  4     QPKEPFQGSPC-DGPMSHIAADLFEYAGKDYLVAVDRFSNWAFCERLNKTTTANVTKILL  62
+
+Query  1067  QHFARHGIPNQLVSDNAQTFKSEKFKQFTLQWDFEHVTSSARYPQSNGKAESAVKRAKSL  1126
+               F + G+P  + +D    F++E F  F   +   H  SSA  P+SNG AESAVK  KSL
+Sbjct  63    GWFRQFGLPKYIRTDGGPQFRTE-FMDFCDDYHIIHELSSAYNPKSNGLAESAVKSVKSL  121
+
+Query  1127  IKKCKHSHTDPMLALLNLRNTPLQSTGYSPAEQSMNRQTRTLLPTKESLLRPKTLINV--  1184
+             ++KCK  + D + ALL  +N P  S G SPA   + R  R  LP     + PK  INV  
+Sbjct  122   VRKCKRGNEDFLTALLARQNVP-GSNGISPAMAFLGRPVRANLPE----VSPKDQINVSL  176
+
+Query  1185  -------------KTNLDKSKAKQSFYYDRSAK--------PLPRLDMGTTVRIKPENSR  1223
+                          + N  + +  +   Y+ + K         L  L +G  VR++  NS+
+Sbjct  177   QDTEDPRAQLARKQMNFGEIRKTRDLLYETNLKRKSADKKFSLAPLSIGDKVRVQDPNSK  236
+
+Query  1224  DKWEKGLIVNSPK--RRSYDVMTENGTTINRNRRHLR  1258
+               W+    V   +   RSY +++E+G    RNRR+L+
+Sbjct  237   -LWDTLATVTEIRDDGRSYRIISEDGKLYLRNRRYLK  272
+
+
+>gb|EBY31274.1| hypothetical protein GOS_6357167, partial [marine metagenome]
+Length=309
+
+ Score = 113 bits (283),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 69/295 (23%), Positives = 136/295 (46%), Gaps = 14/295 (5%)
+
+Query  470  TDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKN  529
+            ++W +  ++V KP G  R+ +D + LNK + +  Y  P  +  L  L+     +  D++ 
+Sbjct  16   SEWAAPALIVPKPHGGWRLVVDLRELNKLIPQDMYEPPGCDLCLEWLAGKPYRTTADMRW  75
+
+Query  530  AFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEG--LDGVKPIA  587
+             F  V L   +  + T  TPFG Y + ++  G   A   FQ+ +   L     D    + 
+Sbjct  76   GFHQVALSPRTQKIFTLTTPFGTYGYTRLLMGYINATSEFQRHMNNTLGPCLWDMCLSMV  135
+
+Query  588  DDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENG  647
+            DD+++        + + +H   + ++  +  +R   +   K  + +  + ++GHL T +G
+Sbjct  136  DDLIV------GSETLPEHRAHVTQVFTKLAQRQHSIKPSKASILRQVIEYLGHLSTPDG  189
+
+Query  648  VKPDSAKVEAIMKMQKP------SDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKD  701
+             +P    V+AI +M +P       D+  ++  LG+  Y+ +++   S  C+P+ TLT + 
+Sbjct  190  TRPTEKHVKAITEMPEPLHEDGSVDRSRLRSFLGLAKYVRRYINTCSKWCQPLNTLTSES  249
+
+Query  702  AIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQEGQ  756
+            +   W   H   F  +KT +     + + D +    +  D S+ G+G  L Q+G+
+Sbjct  250  SDGVWRPIHQLVFDRLKTEIAETVGVYHPDFKKPLFICTDGSKIGIGGYLFQKGR  304
+
+
+>gb|ECO39249.1| hypothetical protein GOS_5636575, partial [marine metagenome]
+Length=301
+
+ Score = 110 bits (276),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 84/310 (27%), Positives = 145/310 (47%), Gaps = 18/310 (6%)
+
+Query  775   IEKELLAVVFGFEKFHQFTYGRRVVVESDHKPL-ETISKKALHKAPK-RLQRMLLRLQLY  832
+             IE ELLA+ +   +   +  G    V +DH+PL   ++ K L      R+ R++ +L  Y
+Sbjct  1     IELELLAIQWAISRSRLYLAGTNFTVITDHQPLVGVLNGKNLDAVNNVRIHRIMSKLIGY  60
+
+Query  833   DFEIIYKKGKDMHIADTLSR--AYLQNSCESTSLGEVRSVQSEFEKEVETVCLTDFLAVT  890
+              F++++  GK  HIAD LSR   +     +   +  V   +   E  +E     + LA  
+Sbjct  61    QFKVLWTPGKTHHIADALSRFPVFKPEEDQDVLVCSVLVGREPTEDTIERDPAIERLAKH  120
+
+Query  891   PSRQEKIRAATQLDPTLAIVIEQIKCGWISKETPPEAKPYFNIRDELSVENN----IIFR  946
+              +  E+ +           V +  K   + ++ P  A+ Y +    LS+E      +I+ 
+Sbjct  121   ATNDEEYQK------VFKAVEDHKKLADLPRDHP--AQQYRSYWHALSIERALPRLVIYH  172
+
+Query  947   GERCVIPRCMRRDILDQIHT-HIGVEGCLNRARQCVFWPNMTSEIKDFIGKCEACQSFAR  1005
+             G R ++PR  +++IL+ +H  H G +  L  ARQ  FW  MT +IK  I +C+ C     
+Sbjct  173   G-RVMVPRTAKKEILETLHIQHCGEQKSLANARQLYFWAGMTEDIKTMIARCQECTRMKP  231
+
+Query  1006  KQCKEPLLNHDVPDRPWAKVGTDIFTLDDNNYLVTVDYFSNFFEIDKLEDMTSRCVIGKL  1065
+              Q  EPL+ +    RP+ +V  D+   D  +YL+ +D +S +  + +L  + +R +   L
+Sbjct  232   SQPMEPLVQNTNASRPFEEVSIDLGYRDGVHYLILMDRYSGWPMMKRLTKLNTRAITNIL  291
+
+Query  1066  KQHFARHGIP  1075
+             +  F   G P
+Sbjct  292   EDWFIDMGKP  301
+
+
+>gb|ECD46508.1| hypothetical protein GOS_3343113, partial [marine metagenome]
+Length=279
+
+ Score = 110 bits (274),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 77/242 (32%), Positives = 123/242 (51%), Gaps = 19/242 (8%)
+
+Query  638  FIGHLLTENG-VKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRT  696
+            ++GH+L+  G + P +AKVEAI K+  P+    ++  LG V+Y   F+   + I  P+  
+Sbjct  15   YLGHMLSAGGYITPQNAKVEAIRKISAPTSVSELKSFLGFVSYYRSFIPLFAQIASPLHK  74
+
+Query  697  LTHKDAIWN-------WTHEHDEAFKNIKTAVCNVP-VLRYFDSRLNTVLQCDASETGLG  748
+            +  K+   +       W  E   AF+ +K A+C    VLR  DS     +  D  + G+ 
+Sbjct  75   MLTKEVYSSSKSFSQIWGTEQQTAFEKLKAAMCTPGLVLRTPDSDKPYYVHTDWCKNGIA  134
+
+Query  749  ATLMQ---EGQP--VAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESD  803
+            A L Q   EG+   VA  SR+L + E+ Y   E E LAVV+  + F Q+ +G +  +  D
+Sbjct  135  ALLTQYDDEGREFIVAAISRSLNTHEREYPPYEGEALAVVWAVKHFRQYLHGHKFYLMCD  194
+
+Query  804  HKPLE-TISKKALHKAPKRLQRMLLRLQLYDFEIIYKKGKDMHIADTLSRAYLQNSCEST  862
+            HKPL+  +  + L     RL    + +Q YD+E +++ G     AD LSR  L N+ ++T
+Sbjct  195  HKPLKWCLDNREL---CGRLAHWAISMQEYDYEFVFQAGVKQE-ADFLSRHPLSNTFDNT  250
+
+Query  863  SL  864
+             +
+Sbjct  251  GV  252
+
+
+>gb|ECT11751.1| hypothetical protein GOS_7089498 [marine metagenome]
+Length=191
+
+ Score = 105 bits (262),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 58/177 (33%), Positives = 96/177 (54%), Gaps = 16/177 (9%)
+
+Query  454  LQRMEKANIITKVETPTDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDLL  513
+            ++ ME   +I K ++P  + S +V V+K  G LRICID + LN    +  +P+P I++ L
+Sbjct  1    MKGMEAQGVIKKSKSP--YSSPIVTVRKKDGTLRICIDYRTLNSKTGKDAFPMPRIDEAL  58
+
+Query  514  PELSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQ--  571
+              L  A+ FS  D+ + +W +++DE     T F TP G Y   +MP G+  AP  FQ+  
+Sbjct  59   DALGGAQYFSTLDLTSGYWQIEVDENDQQKTAFATPMGLYECIRMPMGLVNAPATFQRLM  118
+
+Query  572  ---FLEKNLEGLDGVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLN  625
+               F + N+E L       DD++++ K       V++H  +LE++  R ++  +KLN
+Sbjct  119  LTIFGDMNIEQL---LIYLDDLIVFSK------TVEEHVERLEQVFDRLRQNGLKLN  166
+
+
+>gb|ECL58221.1| hypothetical protein GOS_6326299, partial [marine metagenome]
+Length=291
+
+ Score = 107 bits (268),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 74/280 (26%), Positives = 130/280 (46%), Gaps = 27/280 (10%)
+
+Query  549  PFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLDGVKPI--ADDILIYGKGETFQDAVKDH  606
+            P G +++  +  G++ +P  FQ+ + + L GL  +  +   DDILI      F    + H
+Sbjct  1    PQGLFQFKVLAMGMANSPAVFQRGMNEVLAGLINICCLCYVDDILI------FSPTWEKH  54
+
+Query  607  DRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSD  666
+               L  +  R     + +   K       + ++GH + E+G++P    V+A+     P  
+Sbjct  55   LVHLRAVFDRLVGARLFVKPTKCSFGACRLQYLGHEIAEDGLRPAPKHVKAVQDFPTPRT  114
+
+Query  667  KKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDAIWN------------------WTH  708
+            K A++  LG+ ++   F+ N + +  P+R L  +    +                  W  
+Sbjct  115  KTALKSFLGLASFNRLFIENFAVVSAPLRQLLRQAVSPDLTLPMTMDSQGTVRPNSLWDE  174
+
+Query  709  EHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQEGQPVAYASRALTST  768
+            + ++AF+++K A+   PVL Y D   +  L+ DAS  GLGA L Q+ + +AY SR+LT  
+Sbjct  175  DCEKAFRHLKKALSTAPVLGYPDWTKSFTLRTDASIEGLGAVLRQDDRVIAYLSRSLTPA  234
+
+Query  769  EQNYAQIEKELLAVVFGFEKFHQFTYGRR-VVVESDHKPL  807
+            E      E E LAV++  E    +    R  ++++DHK L
+Sbjct  235  EARLDVRELECLAVLYACESLRPYLQNNRPFLIQTDHKNL  274
+
+
+>gb|ECI05816.1| hypothetical protein GOS_6322916, partial [marine metagenome]
+Length=290
+
+ Score = 104 bits (260),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 71/216 (33%), Positives = 107/216 (50%), Gaps = 11/216 (5%)
+
+Query  655  VEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDAIWNWTHEHDEAF  714
+            V+AI++M  P++   ++  + ++NY +KF+ + S + EP++ L  K A W W  E   A 
+Sbjct  1    VKAIIEMAAPTNVSELRSQVALLNYYSKFIPDRSALLEPVKHLLKKGAKWKWGEEQAAAM  60
+
+Query  715  KNIKTAVCNVPV-LRYFDSRLNTVLQCDASETGLGATLMQEGQP-----VAYASRALTST  768
+            + +K  +      L+ +D +    L  D S  G+GA L Q+        VA  SR+L + 
+Sbjct  61   QKVKRVLATPGAGLKRYDPQRPLYLHTDWSNKGIGAVLGQKDDQSHEYMVACISRSLNAA  120
+
+Query  769  EQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPLETISKKALHKAPKRLQ--RML  826
+            EQNYA    ELLAVV+       F   R   V +DHK LE +      K PK     R L
+Sbjct  121  EQNYASFYGELLAVVWAVRTLRPFLVMRDFTVVTDHKALEWLLSS---KEPKSAHHARWL  177
+
+Query  827  LRLQLYDFEIIYKKGKDMHIADTLSRAYLQNSCEST  862
+              L  Y F I ++ G     AD LSRA L++  +++
+Sbjct  178  HTLLEYSFTIEHRAGTKHQNADALSRAPLEDVSDTS  213
+
+
+>gb|ECB85273.1| hypothetical protein GOS_6233761, partial [marine metagenome]
+Length=306
+
+ Score = 105 bits (261),  Expect = 8e-22, Method: Composition-based stats.
+ Identities = 67/225 (30%), Positives = 114/225 (51%), Gaps = 9/225 (4%)
+
+Query  638  FIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLG-NLSDICEPIRT  696
+            ++G +   +G++ D  K+ A+  +  P  +K V++ LG  N+  +FL  N S +  P+  
+Sbjct  17   YLGFIFGVDGIRADPDKLSAVHDIPAPVTRKQVRQFLGFANFYRRFLPPNYSSVVAPLTA  76
+
+Query  697  LTHKDAIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQ--E  754
+            LT +   ++WT E   AF  +K  + + PVL + D  L   + CDAS  G+GA L Q  +
+Sbjct  77   LTSEKNPFHWTSECQYAFNKVKLLLTSTPVLVHPDFSLPFHIHCDASGKGVGAVLSQYVD  136
+
+Query  755  G--QPVAYASRALTSTEQNYAQIEKELLAVVFG-FEKFHQFTYGRRVVVESDHKPLETIS  811
+            G  +P+A+ S+ L   + +++  + E  A+     EK+  +    + +V SDH+ L  + 
+Sbjct  137  GAYRPIAFCSKKLLPHQAHWSPAQLEAYAIYHSVVEKWRYYLSLSKCIVHSDHRNLIWLF  196
+
+Query  812  KKALHKAPKRLQRMLLRLQLYDFEIIYKKGKDMHIADTLSRAYLQ  856
+            K   H     + R    L  +D +I Y  GK   +AD LSR + Q
+Sbjct  197  K---HNHKGMIGRWYASLAAFDLDITYVSGKSQLVADPLSRLFQQ  238
+
+
+>gb|EBR19412.1| hypothetical protein GOS_7639108, partial [marine metagenome]
+Length=314
+
+ Score = 104 bits (260),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 68/197 (35%), Positives = 101/197 (51%), Gaps = 11/197 (6%)
+
+Query  670  VQRLLGVVNYLTKFLGNLSDICEPIRTLTHKD------AIWNWTHEHDEAFKNIKTAVCN  723
+            ++  LG+ +Y   F+   +    P+R L  KD      A+WN     + +F++IKTA+  
+Sbjct  2    LKSFLGLTSYYRTFVPRYAANTAPLRKLLGKDIPPNVEALWN--DACEASFEHIKTALTT  59
+
+Query  724  VPVLRYFDSRLNTVLQCDASETGLGATLMQEGQPVAYASRALTSTEQNYAQIEKELLAVV  783
+             P+L Y D      L+ DAS  GLGA LMQ G+ +AY SR+L+  E  Y   E E LAV+
+Sbjct  60   APLLAYPDWTKAFTLRTDASIDGLGAVLMQGGKVIAYLSRSLSPAEAKYDTRELECLAVI  119
+
+Query  784  FGFEKFHQFTYGRR-VVVESDHKPLETISKKALHKAPKRLQRMLLRLQLYDFEIIYKKGK  842
+            +  E    +    R  VV++DH+ L+ +   ++     RL R  LRL  Y F + +  G 
+Sbjct  120  YACENLKPYLQNNRSFVVQTDHRNLKWL--MSVRHDSGRLARWALRLSEYPFVLEHISGS  177
+
+Query  843  DMHIADTLSRAYLQNSC  859
+            +  +AD LSRA     C
+Sbjct  178  ENEVADALSRAPWHPVC  194
+
+
+>gb|ECP38033.1| hypothetical protein GOS_6334494, partial [marine metagenome]
+Length=248
+
+ Score = 102 bits (254),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 69/245 (28%), Positives = 115/245 (47%), Gaps = 26/245 (11%)
+
+Query  545  TFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLDGVKPI--ADDILIYGKGETFQDA  602
+             F TP G +++  +  G++ +P  FQ+ + + L GL  +  I   DDILI      F   
+Sbjct  1    AFITPQGLFQFKVLAMGMANSPAVFQRGMNEVLAGLINICCICYVDDILI------FSPT  54
+
+Query  603  VKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQ  662
+             + H   L  + +R +   + +   K       + ++GH + E+G++P    V+A+    
+Sbjct  55   WEKHLDNLRAVFERLRAARLFVKPTKCSFGACRLQYLGHEIAEDGLRPAPKHVKAVQDFP  114
+
+Query  663  KPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDAIWN-----------------  705
+             P  K A++  LG  ++   F+ N + I  P+R L   +   +                 
+Sbjct  115  TPRTKTALKFFLGPASFNRLFIENFAVISAPLRQLLRMEVSPDLTLPMTMDMQGTIRPNT  174
+
+Query  706  -WTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQEGQPVAYASRA  764
+             W  + D+AFK++K A+   PVL Y D   +  L+ DAS  GLGA L Q+ + +AY SR+
+Sbjct  175  LWDEDCDKAFKHLKKALSTAPVLGYPDWDKSFTLRTDASIEGLGAVLRQDDRVIAYLSRS  234
+
+Query  765  LTSTE  769
+            LT  E
+Sbjct  235  LTPAE  239
+
+
+>gb|ECI05338.1| hypothetical protein GOS_6338963, partial [marine metagenome]
+Length=228
+
+ Score = 102 bits (253),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 62/229 (27%), Positives = 111/229 (48%), Gaps = 13/229 (6%)
+
+Query  588  DDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENG  647
+            DDILI+ +       ++DH   L  +L   +   +     K    + ++ ++GH+++E  
+Sbjct  6    DDILIHSR------TIEDHLEHLRIVLNILRTHKLYAAPSKCFFIRKQLEYLGHIISEGY  59
+
+Query  648  VKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDAIWNWT  707
+            +     K+ AI +   P++   ++  LG+  Y  +F+  ++DI +P+  L   +  W+W 
+Sbjct  60   LSMQPKKLNAIAEHPPPTNIPELRTFLGLTGYYRRFIPRMADIIKPLTQLLRSNQTWSWP  119
+
+Query  708  H--EHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQEG-----QPVAY  760
+               E + A+K +   +   P+L   D     ++  DAS+  L A L+Q+      QP  Y
+Sbjct  120  AGGEAENAYKQVIKILTTQPLLALPDHTKPFIIATDASKYALAAVLLQDQGRGYLQPCYY  179
+
+Query  761  ASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPLET  809
+             S+   S E+NY   E+ELLAV+     +  + +G    V +DHK LET
+Sbjct  180  LSKRFNSHEENYLPYERELLAVLTATRAWRPYLHGNPFTVYTDHKALET  228
+
+
+>gb|EBY37049.1| hypothetical protein GOS_6129560, partial [marine metagenome]
+Length=295
+
+ Score = 101 bits (252),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 65/279 (23%), Positives = 134/279 (48%), Gaps = 10/279 (4%)
+
+Query  832   YDFEIIYKKGKDMHIADTLSRAYLQNSCESTSLGEVRSVQSEFEKEVET-----VCLTDF  886
+             + F++++  G    IAD  SR+ ++   ES    +V       E+ +       +C  D 
+Sbjct  17    WRFKVVHVPGVLHKIADATSRSPVKG--ESQDGSQVCCTTGTLEEAIRGGTMAGLCSIDE  74
+
+Query  887   LAVTPSRQEKIRAATQLDPTLAIVIEQIKCGWISKETPPEA--KPYFNIRDELSVENNII  944
+              ++     +++   +  D  +A +   I+ G   ++       + YF   D  +  + ++
+Sbjct  75    RSLRAVTWKELNQESSKDEVIAALRSLIENGAPEEKEEWPPELREYFAKADVFNCVDEVV  134
+
+Query  945   FRGERCVIPRCMRRDILDQIHT-HIGVEGCLNRARQCVFWPNMTSEIKDFIGKCEACQSF  1003
+               G R V+P+ +R+ +++ +H+ H GV G + RAR+ +FWP M   +++  G+C  C   
+Sbjct  135   LMGHRIVMPQKLRQSVVEVLHSGHCGVTGMVERARELMFWPKMKEALEEKRGRCGTCVRI  194
+
+Query  1004  ARKQCKEPLLNHDVPDRPWAKVGTDIFTLDDNNYLVTVDYFSNFFEIDKLEDMTSRCVIG  1063
+             A  Q   P      PD P+  V TD F L  N+Y+V V  +SN+  +   ++ T++ ++ 
+Sbjct  195   APSQPSAPPTPLPTPDFPFQYVSTDYFELAGNHYMVFVCRYSNWITVFASKNGTTKELLM  254
+
+Query  1064  KLKQHFARHGIPNQLVSDNAQTFKSEKFKQFTLQWDFEH  1102
+             +++++    G+  +L +D    + S + + F  ++D  H
+Sbjct  255   RIREYMGVFGVMEELATDGDTVYVSREAQDFFKKYDIRH  293
+
+
+>gb|ECG30959.1| hypothetical protein GOS_6297783, partial [marine metagenome]
+Length=306
+
+ Score = 101 bits (252),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 73/247 (30%), Positives = 117/247 (47%), Gaps = 14/247 (6%)
+
+Query  410  YSDVFQGE-GTFEE-ELHLEIDDSVTPVKMPVRRVPLGLKEKLKCELQRMEKANI-----  462
+            Y ++F+ E G   + EL +       PV    R VP  + E L        K  I     
+Sbjct  58   YPELFKTELGCLRDVELEIAFKSEAKPVFCKPRTVPYAILEDLNQTYDAGIKKGIWEPTQ  117
+
+Query  463  ITKVETPTDWVSSLVVVKKPSGKLRICID-PKPLNKALKRSHYPLPIIEDLLPELSEAKV  521
+              +  TP   +   ++  +   KLR+C D    +N  L+    P+P+ E+L+ +LS    
+Sbjct  118  FNQYGTPVVPIRKQLLPGQEKAKLRVCGDYSVTVNPQLEAHRQPIPLPEELMRKLSGGYC  177
+
+Query  522  FSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLD  581
+            F+K D+ +A+  +KL  ES       T  G     ++PFGIS AP YFQ+ +E+    L 
+Sbjct  178  FTKIDLADAYHQIKLSPESQRRLALSTHRGVLLQKRLPFGISSAPGYFQEIMEQLTSDLK  237
+
+Query  582  GVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGH  641
+            GV    DDIL+ G      DA  +H   L  LL+R ++R ++ N  K    +  + ++GH
+Sbjct  238  GVAVYLDDILVSGT-----DA-GEHLANLRALLQRLQDRGLRCNLKKCSFAQPTVEYLGH  291
+
+Query  642  LLTENGV  648
+             L+++G+
+Sbjct  292  TLSQSGI  298
+
+
+>gb|ECO11210.1| hypothetical protein GOS_3286544, partial [marine metagenome]
+Length=291
+
+ Score = 101 bits (251),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 67/264 (25%), Positives = 123/264 (47%), Gaps = 21/264 (8%)
+
+Query  484  GKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAK------VFSKCDVKNAFWHVKLD  537
+            G +R C+D +  N  L+    PLP+  + +  LS  +        S  D+   FW + + 
+Sbjct  5    GSIRFCVDYRDTNSKLQTQDSPLPLTVEAIDRLSSGQGPQSSLFLSTLDLAAGFWTLPIK  64
+
+Query  538  EESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGL--DGVKPIADDILIY--  593
+            EE  ++T F T   +Y +N +PFG+   P Y  + ++  L+GL  +   P  DD  ++  
+Sbjct  65   EEDKHVTAFVTHRQKYEFNYLPFGLQSGPSYMCRLMDAALDGLAWEVCMPYLDDCGVWST  124
+
+Query  594  GKGETFQD----AVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVK  649
+            G G T Q+    + +   ++L+ + +R +   + +   K  +  T   ++GH+++  G+ 
+Sbjct  125  GAGSTEQEREDSSFEQMMQRLDAVFERMRWAGLSMKASKCAIFATSAEYLGHVISRRGLH  184
+
+Query  650  PDSAKVEAIMKMQKPS--DKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKD----AI  703
+             D  K+ A+  +   +    + V+  LG+ +Y  +F+   S I   +  LT KD    A 
+Sbjct  185  MDPKKIAAVAAIDPTTINSLEKVRSFLGLCSYYRRFIHGFSKIAACLHDLT-KDGMDVAT  243
+
+Query  704  WNWTHEHDEAFKNIKTAVCNVPVL  727
+             + T E   A K +  A+   PVL
+Sbjct  244  LSQTDECQAAVKKLIHAITTEPVL  267
+
+
+>gb|ECH21993.1| hypothetical protein GOS_6154752, partial [marine metagenome]
+Length=319
+
+ Score = 101 bits (252),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 79/315 (25%), Positives = 149/315 (47%), Gaps = 15/315 (5%)
+
+Query  504  YPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGIS  563
+            YP+P I++ L  L+ ++ +S  D   A+  + ++++S  L  F TP G + +++MPFG +
+Sbjct  7    YPIPNIDETLERLAGSRFYSALDAAAAYHTIPVEKKSRPLLAFTTPMGLWTFSRMPFGPT  66
+
+Query  564  PAPEYFQQFLEKNLEGLDG--VKPIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERN  621
+             +   + +F++  L+ +    V    DDILI      F + ++ H ++L  + +  +   
+Sbjct  67   NSGATYARFVDLLLQRIRSRHVCAYIDDILI------FTEDLETHLKELRAVFELHRIAG  120
+
+Query  622  IKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLT  681
+            IKL   K  L   +  ++G  ++  G+   S+ VE I+   KP+  K ++  LG  +Y  
+Sbjct  121  IKLRPKKTNLITKKAKYLGFDVSSEGIAMRSSYVEKILDWPKPTTTKQLRTFLGFTSYYR  180
+
+Query  682  KFLGNLSDICEPIRTLTHKDAIWNWTHEHDEAFKNIKTAVCNVPVLRY--FDSRLNTVLQ  739
+             F+ + S +   +  +     +  WT E D  FK +K      P+  Y  +D      + 
+Sbjct  181  SFIKDYSFLTCEMNGIRMAKTL-EWTEEMDWKFKELKKRFSEEPLRSYPRYDIPDPFHVT  239
+
+Query  740  CDASETGLGATL--MQEG--QPVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYG  795
+             D S+  +   L  +QEG  + +A   R  +  E NY   + EL AV+    K+      
+Sbjct  240  TDWSKKNMAGVLSQIQEGIERFIAAHGRKCSKHETNYPSTKGELAAVMACLRKWDHILKY  299
+
+Query  796  RRVVVESDHKPLETI  810
+            R+ ++ +D K L+ +
+Sbjct  300  RKFILITDSKALKYL  314
+
+
+>gb|ECP46355.1| hypothetical protein GOS_5993389, partial [marine metagenome]
+Length=270
+
+ Score = 100 bits (248),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 66/206 (32%), Positives = 107/206 (52%), Gaps = 9/206 (4%)
+
+Query  684  LGNLSDICEPIRTLTHKDAIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDAS  743
+            + + + + +P+  LT K+  + WT+E  +AF  ++  +   PVL Y D RL   L  DAS
+Sbjct  1    IQDYAKLAKPLTRLTLKNTPFTWTNETQQAFLQLRDKLTQAPVLGYPDPRLPYTLDTDAS  60
+
+Query  744  ETGLGATLMQ-EG---QPVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVV  799
+            +  +GA L Q +G   +PVAY S+  +  E+NY    +ELLAV+   + F  + YGR  +
+Sbjct  61   DMAMGAMLSQVQGGIERPVAYYSKTFSQEERNYCVTRRELLAVLRACQHFRPYLYGRPFL  120
+
+Query  800  VESDHKPLETISKKALHKAPKRLQRMLLRLQLYDFEIIYKKGKDMHIADTLSRAYLQNSC  859
+            + +DH+ L  +++  L +   ++ R    LQ +  +I ++KG   + AD LSR      C
+Sbjct  121  LRTDHESLRWMTR--LKEPRGQVARWSEELQEFQMDIQHRKGTSHNNADALSRRPCPPDC  178
+
+Query  860  ESTSLGEVRSVQSEFEKEVETVCLTD  885
+            +  S  E   V +  E    TVC T 
+Sbjct  179  KHCSRQEGAVVSNPNET---TVCQTS  201
+
+
+>gb|ECQ27509.1| hypothetical protein GOS_6303621, partial [marine metagenome]
+Length=279
+
+ Score = 99.8 bits (247),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 65/236 (28%), Positives = 118/236 (50%), Gaps = 21/236 (9%)
+
+Query  551  GRYRWNKMPFGISPAPEYFQQFLEKNLEGL--DGVKPIADDILIYGKGETFQDAVKDHDR  608
+            G + +  MPFG+  A    Q+ ++  + G+  D V    DD  I+ +G+        H +
+Sbjct  46   GLFEFVGMPFGLRNASATMQRLVDGVMRGIAYDFVCVYVDDACIFTRGD-----FDTHLQ  100
+
+Query  609  KLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKK  668
+             LE++ +R  + N+ +   K  + +  +  +GH +++ G +P   KV AI++  +P    
+Sbjct  101  HLERVFQRLADANLTVKATKCAIARHSIEMLGHTISKAGQRPQLDKVRAILERPRPRTIS  160
+
+Query  669  AVQRLLGVVNYLTKFLGNLSDICEPIRTLTHK-----DAIWNWTHEHDEAFKNIKTAVCN  723
+             ++ +LG +++  +++ N S I +P+  L  +     D +W   H++  AF  +K A+ +
+Sbjct  161  DLRSILGAISFYRRYIPNCSSIMKPLHALDARDNPRVDTMWGPAHQY--AFDYLKQALAS  218
+
+Query  724  VPVL---RYFDSRLNTVLQCDASETGLGATLMQ--EGQ--PVAYASRALTSTEQNY  772
+             P+L    Y       VLQ DAS+ GLGA  MQ   G+  P+ Y SR  +  E+ Y
+Sbjct  219  RPLLCQPDYSPGAGGFVLQTDASDVGLGAAFMQYHHGKLFPICYLSRPQSKAEREY  274
+
+
+>gb|ECE35371.1| hypothetical protein GOS_3298311, partial [marine metagenome]
+Length=189
+
+ Score = 97.4 bits (241),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 50/181 (28%), Positives = 86/181 (48%), Gaps = 12/181 (7%)
+
+Query  639  IGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTLT  698
+            +GH ++  G+  +  K  A+    +P + + +   LG+V Y    + + SD   P+  L 
+Sbjct  2    LGHWISAAGIGVNPEKARAVQDYPRPQNVREIASFLGLVGYFRSHIAHFSDKAAPLNALR  61
+
+Query  699  HKDAIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQE----  754
+             K A+W+W  E +EAF+ +K  + +  +L +        L  DAS+  +G  L Q+    
+Sbjct  62   KKGAVWSWQDEQEEAFQALKQGLVDAALLAFPQPGGAFKLHTDASKFAVGGCLTQQVNLG  121
+
+Query  755  --------GQPVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKP  806
+                     +P+ + SR +T  EQ Y+  E+E LAVVF   K     +G  + + +DH  
+Sbjct  122  SAEDPIWRERPIVFLSRKMTGAEQRYSVSEQEALAVVFCLSKVRHLVWGADLTIVTDHLA  181
+
+Query  807  L  807
+            L
+Sbjct  182  L  182
+
+
+>gb|ECN46923.1| hypothetical protein GOS_5809717, partial [marine metagenome]
+Length=193
+
+ Score = 96.7 bits (239),  Expect = 9e-20, Method: Compositional matrix adjust.
+ Identities = 57/176 (32%), Positives = 94/176 (53%), Gaps = 11/176 (6%)
+
+Query  635  EMPFIGHLLTEN-GVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEP  693
+            E  ++GH++    GV+ D  KVE ++ M  P++ + ++  LG+  Y  +F+ + S I  P
+Sbjct  17   ETEYVGHIIEAGEGVRVDPRKVEKMLTMGTPANVQELKSFLGMAAYYRRFIKDFSHITVP  76
+
+Query  694  IRTL-----THKDAIWN-WTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGL  747
+            +R +     ++   IW  W     +AF  IK A+   PVL + D     ++  D S   +
+Sbjct  77   LRKIENVFKSNLQPIWPLWGDNQQKAFNAIKAAMAEAPVLIFPDFSKPYIVMTDCSNAAM  136
+
+Query  748  GATLMQ--EG--QPVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVV  799
+            GATLMQ  +G  +P+AY SRAL   E+ Y   +KE  A V+   K+ Q+ +G +V+
+Sbjct  137  GATLMQVRDGIERPIAYDSRALNKHEKEYGISDKEGAAAVWAMRKWRQYLHGSQVM  192
+
+
+>gb|ECC76238.1| hypothetical protein GOS_6129720, partial [marine metagenome]
+Length=309
+
+ Score = 95.9 bits (237),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 55/177 (31%), Positives = 101/177 (57%), Gaps = 14/177 (8%)
+
+Query  403  MQEIQNNYSDVFQGEGTFE-EELHLEIDDSVTPVKMPVRRVPLGLKEKLKCELQRMEKAN  461
+            M+++   Y +VF+G G ++   + +++ D V PV  P RR+PL  +E L+  +Q + +A 
+Sbjct  115  MEKVAKEYKEVFEGIGKYKGPPVEIQVKDGVRPVVQPPRRIPLHYQEPLREHIQELLEAG  174
+
+Query  462  IIT---KVETPTDWVSSLVVV-------KKPSG---KLRICIDPKPLNKALKRSHYPLPI  508
+            +I    + E    WVS+LV+        +K  G   ++R  +D +PLNK + ++H P+P 
+Sbjct  175  VIEGPLQHEEEGTWVSNLVITGKKWDTEEKKRGERVQIRANLDCRPLNKVVYQTHEPIPT  234
+
+Query  509  IEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPA  565
+             E+L   L  ++ F+  D+++ F   +++E++  L TF T +G +R+ +M  G SPA
+Sbjct  235  PEELRHTLRGSERFTTLDMRHCFHQFEIEEKARKLFTFRTSWGLFRYTRMVMGNSPA  291
+
+
+>gb|ECP88265.1| hypothetical protein GOS_4318367, partial [marine metagenome]
+Length=293
+
+ Score = 95.1 bits (235),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 65/203 (32%), Positives = 105/203 (52%), Gaps = 16/203 (8%)
+
+Query  930   YFNIRDELSVENNIIFRGERCVIPR----CMRRDILDQIH-THIGVEGCLNRARQCVFWP  984
+             Y  +  ELS   N++ R  R V+P+     MR  IL+  H  H G+    ++ R  V+WP
+Sbjct  80    YKRVASELSTTGNLLVRDRRIVVPKGVDGSMRVKILNAAHEGHPGISQLKSKLRGSVYWP  139
+
+Query  985   NMTSEIKDFIGKCEACQSFAR-KQCKEPLLNHDVPDRPWAKVGTDIFT-LDDNN---YLV  1039
+              +T EI++    C ACQ+    +   + L   + P++ W+KVG D +  L D +    LV
+Sbjct  140   GITKEIEERFKSCLACQATTEGRPHADKLTPSEPPEKVWSKVGGDHWGPLPDGSERYILV  199
+
+Query  1040  TVDYFSNFFEIDKLEDMTSRCVIGKLKQHFARHGIPNQLVSDNAQTF---KSEKFKQFTL  1096
+               DY S + E   ++   ++  I  L++ F RHG P + ++DN   +   +S + KQ+ L
+Sbjct  200   LQDYLSKYPEAVVVKHTAAKDNIRALEEIFGRHGYPEKFITDNGPPWNGTESHEMKQY-L  258
+
+Query  1097  QW-DFEHV-TSSARYPQSNGKAE  1117
+             +W   EH+ T SA  P++NG  E
+Sbjct  259   KWAGVEHLPTRSADDPEANGLTE  281
+
+
+>gb|EBY81431.1| hypothetical protein GOS_4326034, partial [marine metagenome]
+Length=201
+
+ Score = 92.4 bits (228),  Expect = 3e-18, Method: Composition-based stats.
+ Identities = 54/190 (28%), Positives = 100/190 (53%), Gaps = 11/190 (6%)
+
+Query  481  KPSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKV--FSKCDVKNAFWHVKLDE  538
+            K SG+ R+C+D K LN+    + +PLP I+D++  L + K   F+  D+   +W + + E
+Sbjct  11   KTSGEYRVCMDWKGLNQESLMNGWPLPNIKDIIHRLGDKKANYFAVIDLTQGYWQIPIHE  70
+
+Query  539  ESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNL--EGLDGVKPI-ADDILIYGK  595
+            +S +LT F T  G Y W ++  G+  A  YFQ  +   +  E +  V  +  DDI+ +  
+Sbjct  71   DSQHLTAFRTAEGLYEWTRLGMGLKGAGPYFQYHMANTIFPELIYKVLEVYLDDIITW--  128
+
+Query  596  GETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKV  655
+            GET ++ +++    L ++  + K+  I +N  K ++  TE+ ++GH +   G      K 
+Sbjct  129  GETLEELIQN----LTQIFAQLKKFGIFINPQKIKIGLTEIEYVGHTIDRYGESFSQKKQ  184
+
+Query  656  EAIMKMQKPS  665
+            + ++  + PS
+Sbjct  185  DQVLNFKTPS  194
+
+
+>gb|ECQ38616.1| hypothetical protein GOS_5861773, partial [marine metagenome]
+Length=303
+
+ Score = 94.0 bits (232),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 60/284 (21%), Positives = 120/284 (42%), Gaps = 46/284 (16%)
+
+Query  474  SSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWH  533
+            ++L  V KP+G LR   D + +N   K+    LP++E++L ++  AK FS  D  + F+ 
+Sbjct  25   AALFFVPKPNGGLRAVADYRQINSITKKILPALPLMENILTQIEGAKFFSALDCSHQFYQ  84
+
+Query  534  VKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGL-------------  580
+            ++++    +LT  +T  G Y +   P G+  +       +E  L  +             
+Sbjct  85   IRMEPGHEHLTCMKTVLGSYEYKVCPMGMQGSVATAMAVMESVLNHVISHPGESTPENPR  144
+
+Query  581  --------DGVKP-------------------IADDILIYGKGETFQDAVKDHDRKLEKL  613
+                      + P                     DD L+Y K E       +H R + ++
+Sbjct  145  RQPPLPEQADIPPDDAWKLHRYHSALGSYCVIFIDDALVYSKSE------DEHVRHIRQI  198
+
+Query  614  LKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRL  673
+             +   +  + LN DK +  K E+ ++G ++   G +P   + +AI    + ++   V+  
+Sbjct  199  CETLVQHRLYLNIDKCQFFKPEVCYLGQIIGRWGTRPTDDRAQAIQDWPELTNVGEVRSF  258
+
+Query  674  LGVVNYLTKFLGNLSDICEPIRTLTHKDAIWNWTHEHDEAFKNI  717
+            LG+  ++ +++ + + I  P+  +  K   W+W     EAF+ +
+Sbjct  259  LGLCGFVRRWIQDFAQIAAPLHAMLKKGQPWSWGTAEQEAFEEL  302
+
+
+>gb|EBR36673.1| hypothetical protein GOS_7610870, partial [marine metagenome]
+Length=284
+
+ Score = 90.9 bits (224),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 69/266 (26%), Positives = 128/266 (48%), Gaps = 14/266 (5%)
+
+Query  601  DAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMK  660
+            ++ + H  +L  +L+R +   +    +K E   T   ++GH+++  G++ D  KVEA+ K
+Sbjct  8    ESFEQHLGRLLLILERFRWAQLSCKAEKCEFFATSAAYLGHVVSRKGLEMDPKKVEAVSK  67
+
+Query  661  MQKPSDK--KAVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKD---AIWNWTHEHDEAFK  715
+            +   S    + V+  LG+ +Y  KF+   +    P+  LT +    ++ + +     A +
+Sbjct  68   IDPTSINTLEKVRSFLGLCSYYRKFIPKFASKAGPLHDLTKEGVDVSVISQSEACQNAIR  127
+
+Query  716  NIKTAVCNVPVLRYFDSRLNTVLQCDASET-GLGATLMQEGQPV-----AYASRALTSTE  769
+             + TA+ + PVL       + +++ DA+ T G+G  L Q  +       AY  R L + E
+Sbjct  128  ELITAITSEPVLAMPRFDRDFIVKTDAARTEGIGGVLSQLDEEKRERVNAYYGRRLRANE  187
+
+Query  770  QNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPLETIS--KKALHKAP-KRLQRML  826
+            + +   E ELLA +     +  + +GRR  +  DH  L  +   +  +   P  RL R +
+Sbjct  188  RAWTVTEIELLAALESISNWRPYLWGRRFKLVIDHSALRWLHTMRDNIDGGPSSRLTRWI  247
+
+Query  827  LRLQLYDFEIIYKKGKDMHIADTLSR  852
+            ++L  Y+FE+ +K G     AD +SR
+Sbjct  248  MKLSEYNFEVEHKPGATHKDADAVSR  273
+
+
+>gb|EBZ21643.1| hypothetical protein GOS_6255582, partial [marine metagenome]
+Length=301
+
+ Score = 91.3 bits (225),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 71/264 (27%), Positives = 123/264 (47%), Gaps = 15/264 (6%)
+
+Query  465  KVETPTDWV--SSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELS-EAKV  521
+            K+     W+     V   K  G  RI  D K LN  + +  Y  P  EDL   +  E+ +
+Sbjct  23   KIHGEIKWLFYGQYVDKGKGDGSFRIVGDFKELNDRIVKDVYHFPTPEDLWRGVKPESNL  82
+
+Query  522  FSKCDVKNAFWHVKLDEESSYLTTFETPFGR----YRWNKMPFGISPAPEYFQQFLEKNL  577
+            F  CD  +++  ++  E +  +     P         +     G S +   + +  +K +
+Sbjct  83   FFVCDATSSYNQIRNSESTMKMMAVALPTTEGTKYMHFTTAGMGCSNSGPAWCRASDKVV  142
+
+Query  578  EGLDGVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMP  637
+             G+D +K + DD L+    E      ++   KL  LL+  ++ N+K ++ K ++   E+ 
+Sbjct  143  RGVDCMKGV-DDCLVQATSE------EEMLPKLRDLLEAARKGNMKFSRKKIQI-GGEVD  194
+
+Query  638  FIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIRTL  697
+            F G  LT  G++P   KV +IM+   P D+ +++  LG+VN  +KF  +LS +C+P+R  
+Sbjct  195  FCGFRLTNKGLQPSPKKVSSIMQYPDPLDESSMRSFLGMVNQFSKFFPDLSHLCKPLREK  254
+
+Query  698  THKDAIWNWTHEHDEAFKNIKTAV  721
+              KD I+ +       FK IK A+
+Sbjct  255  LKKDVIYEFGPVEQLHFKKIKEAM  278
+
+
+>gb|ECF49086.1| hypothetical protein GOS_6042075, partial [marine metagenome]
+Length=229
+
+ Score = 90.1 bits (222),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 61/233 (26%), Positives = 107/233 (46%), Gaps = 26/233 (11%)
+
+Query  536  LDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLDGVKPIADDILIYGK  595
+            +D+   + T   TP+G + + ++  G+  + + FQ+ L+  ++G+ GV    DD+LIY +
+Sbjct  3    IDKRDRWKTCITTPWGLFNFRRLAMGLQNSAQSFQRHLDDVIKGIPGVFCYLDDLLIYSR  62
+
+Query  596  GETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKV  655
+             +      KDH + LE L  R  +  + L  DK E  K  + ++G  ++E G+ P   K+
+Sbjct  63   NK------KDHLKTLELLFDRLNKAGLTLALDKCEFGKDRLNYLGFEVSEKGIAPIPKKI  116
+
+Query  656  EAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNL------------SDICEPIRTL------  697
+            EA+ K   P  +K +   LG +NY    L +L            + + EP+  L      
+Sbjct  117  EALQKFPAPVKQKQLLAFLGALNYYRASLPSLDPDEVHLKPRTPAQVLEPLYKLATCVIP  176
+
+Query  698  --THKDAIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLG  748
+              +  + IW  +    +AF + K+ +     L + D      L  DAS+  LG
+Sbjct  177  KKSSFEQIWKNSKNVQKAFVDAKSLLEKAVTLNFPDPSAPLALTTDASKLALG  229
+
+
+>gb|ECJ86452.1| hypothetical protein GOS_6154797, partial [marine metagenome]
+Length=277
+
+ Score = 89.4 bits (220),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 70/253 (28%), Positives = 126/253 (50%), Gaps = 31/253 (12%)
+
+Query  636  MPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPIR  695
+            + ++G+L+ ++G++P    +  I  M+ P+  K +Q  +G+VNY  +F+ + +    P+ 
+Sbjct  1    VEYLGYLINKDGIRPSPRHLMGIDNMKVPTTLKELQCFVGLVNYERRFIKDFTAKMLPLT  60
+
+Query  696  TLTHKDAIWN-WTHEHDEAFKNIKTA----VCNVPVLRYFDSRLNTVLQCDASETGLGAT  750
+              T +   +N  T E  E+F  +K      V    +L + D      +  DAS+  +G  
+Sbjct  61   NATKRGQSFNGLTDEELESFHAVKAELKLFVEGSKMLYFPDFSKQIFVHTDASKQAIGGW  120
+
+Query  751  LMQEGQ-----PVAYASRALTSTEQNYAQI----------EKELLAVVFGFEKFHQFTYG  795
+              Q G+     P+AY SR++   EQNY ++          E ELLA+++  ++     +G
+Sbjct  121  AFQYGESGDIRPIAYVSRSVKEAEQNYFELVETGTGSETREIELLALIWVLDELDYLLHG  180
+
+Query  796  RR-VVVESDHKPLETISKKALHKAPK------RLQRMLLRLQLYD-FEIIYKKGKDMHIA  847
+             + VV ++DH+ +E +  K+  + PK      RL R  LRL  Y   +I Y+ G    +A
+Sbjct  181  EKGVVCDTDHRNIEWL--KSHGRTPKSSKGNHRLLRWALRLDQYSGVKIRYRTGATNTVA  238
+
+Query  848  DTLSRAYLQNSCE  860
+            D +SR + ++S E
+Sbjct  239  DAMSRLH-EDSAE  250
+
+
+>gb|ECO99579.1| hypothetical protein GOS_3269801 [marine metagenome]
+Length=302
+
+ Score = 89.0 bits (219),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 52/164 (32%), Positives = 88/164 (54%), Gaps = 6/164 (4%)
+
+Query  423  ELHLEIDDSVTPVKM-PVRRVPLGLKEKLKCELQRMEKANIITKVETPTDWVSSLVVVKK  481
+            ++ +++   V P    P RR  +    ++  ++Q M  AN++ +  +   W S +++  K
+Sbjct  134  DVDIDVGSWVQPSNQGPHRRQSINKDVEINRQVQDMLDANVVRESRSANAW-SQVLLTLK  192
+
+Query  482  PSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSE--AKVFSKCDVKNAFWHVKLDEE  539
+            P+GK R CID + LNK ++   +PLP I +LL  + +   KVF K D+ N +  + L E 
+Sbjct  193  PNGKWRFCIDFRQLNKLIQDKGWPLPRINELLERVGQQRPKVFGKVDLTNGYHQMPLSES  252
+
+Query  540  SSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLDGV  583
+            +   T F+T  G Y W ++P G+  A  YFQQ +    E L+G+
+Sbjct  253  AKKWTAFKTSKGLYEWERVPMGLRNAAAYFQQAMA--TEVLNGL  294
+
+
+>gb|ECI15405.1| hypothetical protein GOS_5935901, partial [marine metagenome]
+Length=225
+
+ Score = 87.8 bits (216),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 58/214 (27%), Positives = 102/214 (48%), Gaps = 15/214 (7%)
+
+Query  926   EAKPYFNIRDELSVENNI-----IFRGERCVIPRCMRRDILDQIH-THIGVEGCLNRARQ  979
+             EA P+ ++     VENN+     +F G R ++P     D+L+ I  TH+G    +  A+ 
+Sbjct  4     EAWPHLHV-----VENNLQQKLFVFEGTRFLVPPGAIDDVLEVIDITHMGFPKAIGYAKA  58
+
+Query  980   CVFWPNMTSEIKDFIGKCEACQSFARKQCKEPLL---NHDVPDRPWAKVGTDIFTLDDNN  1036
+               FWP M+  ++     C  C   +  +  E +L   + + P+ P+  +  D F+    N
+Sbjct  59    RYFWPKMSQSVEAHCNNCLICIKHSDAKPAEDVLPPADFNKPEAPFEVISCDEFSFQHKN  118
+
+Query  1037  YLVTVDYFSNFFEIDKLED-MTSRCVIGKLKQHFARHGIPNQLVSDNAQTFKSEKFKQFT  1095
+             YL+ VD FS++     L    T+  +I  + Q     G    + +D A+ F  ++F++F 
+Sbjct  119   YLMIVDAFSSYSRAVHLPGKRTATVLINHILQFMLDFGFSRVIQTDGARVFTGQEFQEFL  178
+
+Query  1096  LQWDFEHVTSSARYPQSNGKAESAVKRAKSLIKK  1129
+                  +H  S+    +SNG+AE  +K  KS++ K
+Sbjct  179   ENNKIQHRLSAPMASRSNGRAEQKIKAYKSMLTK  212
+
+
+>gb|EBC50294.1| hypothetical protein GOS_59630, partial [marine metagenome]
+Length=293
+
+ Score = 85.1 bits (209),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 63/281 (22%), Positives = 132/281 (47%), Gaps = 18/281 (6%)
+
+Query  386  KIQYENICHVE--KENELHMQEIQNNYSDVFQ------GEGTFEEELHLEIDDSVTPVKM  437
+            ++Q E   H++  K+    ++ +   + DVF       G+ +  +  H+E++ + TPV+ 
+Sbjct  20   ELQLEERFHLKGNKQRLARVEALIERWKDVFTNDHIKVGKTSRVDPFHIELEPNTTPVRQ  79
+
+Query  438  PVRRVPLGLKEKLKCELQRMEKANIITKVETPTDWVSSLVVVKKPSGKLRICIDPKPLNK  497
+              R +     + L+ +L       +I   ++P  W S +V + K  G +R  ID + LN 
+Sbjct  80   RSRPLTPEQVQALRKQLDEWLADGVIEPSDSP--WASPMVPLLKKDGSIRWAIDYRALNL  137
+
+Query  498  ALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWNK  557
+                  +P P I++++   + ++VFS  D   AF ++ +D  S   T F   FG +++ +
+Sbjct  138  RTVADSFPTPRIDEVIACFAGSRVFSALDAAQAFHNIPVDPGSRTQTAFVCIFGLFQFAR  197
+
+Query  558  MPFGISPAPEYFQQFLEKNLEGLD--GVKPIADDILIYGKGETFQDAVKDHDRKLEKLLK  615
+            MPFG+  A   + + ++  ++ L   G+    DD++++            H   L+K L+
+Sbjct  198  MPFGLKNAGAAYCRLVQTLVDDLADPGIAAYLDDVIVHSADPN------KHVDLLDKTLQ  251
+
+Query  616  RCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVE  656
+               +  I+L   K  L +  + ++G  ++ +G+   +  +E
+Sbjct  252  AHFQAGIRLKAKKTILFEDAVDYLGFRISADGIGMTTKYIE  292
+
+
+>gb|ECI23529.1| hypothetical protein GOS_5607134, partial [marine metagenome]
+Length=304
+
+ Score = 84.7 bits (208),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 63/253 (25%), Positives = 102/253 (40%), Gaps = 19/253 (8%)
+
+Query  10   PPKLDMEGNISDNWKKFKRTWNNYEIAAGLAEKDEKLRTATLLTCIGPEAMDVFDGFHFA  69
+            P +L+   N SD  K +K     +E       K    +   L   + P+  D+       
+Sbjct  38   PSRLETLPNSSDASKVYKHWKKTFEYYVAALPKTNLNKLHVLTNFVAPDVFDIIS-----  92
+
+Query  70   EEKEKTEIKTVIEKFETFCIGKTNVTYERYNFNMCTQTQDETFDTYVSRLRKLVKTCEYA  129
+               E       +   +   I   NV Y R+      Q   E+FD+Y++ L+ L K C + 
+Sbjct  93   ---EDATYNAALATLDANYIKAPNVIYARHLLATRKQQPGESFDSYLAALKSLAKDCNFQ  149
+
+Query  130  NLTESL-----ITDRIVIGIRENSVRKRLLQEDKLTLDKCIDICRAAESTQAKVKSMSGA  184
+             ++ +      I D  + G    +VR+RLL+++ +TLD+ I   R+ ES +   +  S  
+Sbjct  150  TVSAATYQNESIRDAFIAGTLSTTVRQRLLEKNTITLDEMITTARSLESAEKNAEGYSAG  209
+
+Query  185  SGTTEEVQYVKQKQTYRPKTKNPT-----PNINKCKYCGKF-CTKGKCPAFGKKCMKCGK  238
+            +        + +K     K+ N       PN N C  CG     + KCPA    C  C K
+Sbjct  210  NTAELAAMSLDEKIAAAIKSANSNNQKLKPNKNSCWNCGNAKHPQSKCPARDAVCHTCDK  269
+
+Query  239  YNHFASECQQIEQ  251
+              H+A  C+  +Q
+Sbjct  270  VGHWAKWCRTGKQ  282
+
+
+>gb|EBF80017.1| hypothetical protein GOS_9538503, partial [marine metagenome]
+Length=179
+
+ Score = 82.4 bits (202),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 51/150 (34%), Positives = 76/150 (51%), Gaps = 8/150 (5%)
+
+Query  448  EKLKCELQRMEKANIITKVETPTDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLP  507
+            E+LK +L  + K   I    +P  W S ++ V K  G  R+C+D + LN    R  Y LP
+Sbjct  34   EELKRQLDDLLKKGHIRPSASP--WASPVIFVAKKDGSKRLCVDYRALNTRTIRDRYALP  91
+
+Query  508  IIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPE  567
+             ++DLL   +  +VFS  D+   +  + +  E    T F T +G Y +  MPFG++ AP 
+Sbjct  92   RLDDLLDTAARGRVFSCLDLTKGYHQIAIHPEDVENTAFTTRYGLYEYLVMPFGLTNAPS  151
+
+Query  568  YFQQFLEKNLEGLDGVKPIA----DDILIY  593
+             FQ+FL  NL   D +        DDIL++
+Sbjct  152  SFQRFL--NLVFADVLDKFVVIYLDDILVF  179
+
+
+>gb|EBT36798.1| hypothetical protein GOS_7285367, partial [marine metagenome]
+Length=285
+
+ Score = 83.6 bits (205),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 57/187 (30%), Positives = 92/187 (49%), Gaps = 10/187 (5%)
+
+Query  438  PVRRVPLGLKEKLKCELQRMEKANIITKVETPTDWVSSL-VVVKKPSGKLRICIDPKPLN  496
+            P R  P  LK   + E   M +  II   ++   W S L +V KK  G  R C D + LN
+Sbjct  104  PRRLAPDKLKIA-RAEFDYMLQLGIIRPSDS--QWASPLHMVPKKNEGDWRPCEDYRALN  160
+
+Query  497  KALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWN  556
+            +      YP+P I+D    L    +F+K D+  A+ ++ + +E    T   TPFG + + 
+Sbjct  161  RQTVPDRYPIPHIQDFTNGLQGMNIFTKIDLVRAYHNIPVADEDIPKTAITTPFGLFEFV  220
+
+Query  557  KMPFGISPAPEYFQQFLEKNLEGLDGVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKR  616
+            +MPFG+  A + FQ+F++  L  +   +   DD+LI          ++ H++ ++ +LKR
+Sbjct  221  RMPFGLRNAAQTFQRFIDNLLRDMPFTQRYIDDLLIASPD------LQSHEQHVKTVLKR  274
+
+Query  617  CKERNIK  623
+              E  IK
+Sbjct  275  LDEHGIK  281
+
+
+>gb|ECP28815.1| hypothetical protein GOS_5575719, partial [marine metagenome]
+Length=331
+
+ Score = 82.8 bits (203),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 60/210 (29%), Positives = 110/210 (52%), Gaps = 11/210 (5%)
+
+Query  486  LRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYLTT  545
+            LRICID + LN  L         + +L+ E    K  S  D+ +A+  +K+  E  + T 
+Sbjct  119  LRICIDYRRLNSFLPSDPIITEKLSNLMLETGPHKYRSSFDLPDAYMQIKIKPEDRHKTA  178
+
+Query  546  FETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLD--GVKPIADDILIYGKGETFQDAV  603
+            F     +Y++  +PFG+  +   F + + + +EGLD   ++   DDIL+    ++F+D +
+Sbjct  179  FCFNGKQYQFITLPFGLRVSGSSFIRVMSEVMEGLDRREIRNYIDDILL--TNQSFEDHL  236
+
+Query  604  KDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQK  663
+             +  R  EK    C+ + IKL+  K  + + ++ F+G +L E G   +  KV+AI+ +  
+Sbjct  237  IN-TRNSEK----CRVKRIKLSMAKAVIGQKQIKFLGVILQEEGFGVNKKKVQAILDITD  291
+
+Query  664  PSDKKAVQRLLGVVNYLTKFLGNLS--DIC  691
+             +  K ++  +G+V++  K++ NLS   IC
+Sbjct  292  ITTTKELRSFIGMVSFWRKWIPNLSSRSIC  321
+
+
+>gb|ECF45351.1| hypothetical protein GOS_6198327, partial [marine metagenome]
+Length=188
+
+ Score = 80.9 bits (198),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 49/179 (27%), Positives = 85/179 (47%), Gaps = 5/179 (3%)
+
+Query  6    MIPFPPKLDMEGNISDNWKKFKRTWNNYEIAAGLAEKDEKLRTATLLTCIGPEAMDVFDG  65
+            M  F P   M+ +   +W  +K  ++ Y +A  L  +D   + +TL+  +G +A  VF  
+Sbjct  6    MAKFNPPAPMDFDTPASWTDWKTRFSRYRLAMKLDREDGATQVSTLIYAMGAQADKVFSA  65
+
+Query  66   FHF-----AEEKEKTEIKTVIEKFETFCIGKTNVTYERYNFNMCTQTQDETFDTYVSRLR  120
+            F F     A    + +   V++KF+   I K NV +ER       Q   E+ + ++  LR
+Sbjct  66   FTFPAPTDAMPNPENDYGIVLQKFDEHFIPKRNVIHERAKLYARKQQNGESVEMFLRALR  125
+
+Query  121  KLVKTCEYANLTESLITDRIVIGIRENSVRKRLLQEDKLTLDKCIDICRAAESTQAKVK  179
+             L  TC++ +  E  + D +V+ + +  V +RL  E  L+L   ID  R  E  + ++K
+Sbjct  126  DLAATCDFRDREEEFVRDMLVLELSDVEVSQRLQLEPDLSLKAAIDTARHYELVKKQLK  184
+
+
+>gb|ECO29794.1| hypothetical protein GOS_6034264, partial [marine metagenome]
+Length=299
+
+ Score = 82.0 bits (201),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 72/275 (26%), Positives = 117/275 (43%), Gaps = 34/275 (12%)
+
+Query  614  LKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRL  673
+            LK C +  I  N +KF   K    F+G  +T +G KP  + + AI     P+    V+  
+Sbjct  12   LKTCSDNGIVFNPEKFHFAKKSCEFVGFQITPDGYKPPESILNAIRDFPVPTSITDVRSW  71
+
+Query  674  LGVVNYLTKFLGNLSDICEPIR-TLTHKDAIWNWTHEHDEAFK--------NIKTAVCNV  724
+             G++N ++ +    + +  P R  L+ K A + W    ++ F+        +I+  VC  
+Sbjct  72   FGLINQVSHYFAQ-AKVMAPFRDLLSGKSAKFYWDDTLNQVFEQSKQQIISSIRDGVCT-  129
+
+Query  725  PVLRYFDSRLNTVLQCDASETGLGATLMQ-------------EG--QPVAYASRALTSTE  769
+                 F     T +  D S+ G+G TL Q             EG  + +   SR     +
+Sbjct  130  -----FQMNRTTCISTDWSKQGIGFTLSQKHCRCEHDTPICGEGHWKLIMAGSRFTRPAK  184
+
+Query  770  QNYAQIEKELLAVVFGFEKFHQFTYG-RRVVVESDHKPL-ETISKKALHKAPK-RLQRML  826
+              YA I+ E LAV +  ++   F  G   ++V  DHKPL   +  + L      RL R+ 
+Sbjct  185  SRYAPIKGEALAVAWALQRCKVFVMGCPNLIVAVDHKPLIRILDDRPLESIENPRLLRLK  244
+
+Query  827  LRLQLYDFEIIYKKGKDMHIADTLSRAYLQNSCES  861
+             ++  Y F I++  GK     D +SR   Q+  +S
+Sbjct  245  EKMLPYSFRIMHIPGKLNCGPDVMSRYPTQSKDQS  279
+
+
+>gb|EBY48665.1| hypothetical protein GOS_5647889, partial [marine metagenome]
+Length=132
+
+ Score = 79.3 bits (194),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 44/124 (35%), Positives = 71/124 (57%), Gaps = 12/124 (10%)
+
+Query  491  DPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKL---DEESSY-----  542
+            D + LN+  +   YPLP I+  + EL+    FS  D+K+AFW ++L   D+E +      
+Sbjct  1    DFRILNERSQVERYPLPRIDQAIEELAGKAWFSALDIKSAFWQIRLGDPDDEKARERIQN  60
+
+Query  543  LTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLDGVKPIA--DDILIYGKGETFQ  600
+            LT F TP+G+YRW +MP G+  +P  +Q+ + +  + L     +A  DD+LIY +  T+ 
+Sbjct  61   LTAFATPWGQYRWKRMPMGLHSSPSTWQRTINRTFQALLWRCLVAYIDDVLIYSR--TWD  118
+
+Query  601  DAVK  604
+            D +K
+Sbjct  119  DHIK  122
+
+
+>gb|ECD60289.1| hypothetical protein GOS_6303908, partial [marine metagenome]
+Length=308
+
+ Score = 82.0 bits (201),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 59/231 (26%), Positives = 110/231 (48%), Gaps = 20/231 (9%)
+
+Query  447  KEKLKCELQRMEKANIITKVETPTDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPL  506
+            ++ L+  L+++    II++ E+  +W   +V+V KP    R+C+DP  +NK      + +
+Sbjct  74   RQFLRMLLRKLVDTGIISRTES--EWCCPVVLVIKPDLTWRLCVDPSVINKNTVPMQWEI  131
+
+Query  507  PIIEDLLPE-LSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETP-FGRYRWNKMPFGISP  564
+            P + +L+ E L   K  SK D  + FW + L  +S  L +F    FG Y +N++  G   
+Sbjct  132  PRVRELMQEQLRGVKWLSKFDFISMFWQIPLHADSRKLFSFYAGEFGSYCFNRVAMGALN  191
+
+Query  565  APEYFQQFLEKNLEGL----------DGVKPIADDILIYGKGETFQDAVKDHDRKLEKLL  614
+            +  Y Q+ +    E +          +G+    DD+L++ K E     +       E  L
+Sbjct  192  SSIYTQRMVTHMFENVLRRDGRPLLGNGLLVQTDDVLLHAKTEEEMLELL------ELFL  245
+
+Query  615  KRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPS  665
+               +  ++ ++  K  L+K E+ + GHL+T  GV  D  ++  +  M +P+
+Sbjct  246  HTTQAHHMSIHPKKCALYKREVTYCGHLVTRQGVTVDPERIAGLRSMPQPT  296
+
+
+>gb|ECO41258.1| hypothetical protein GOS_5548400, partial [marine metagenome]
+Length=149
+
+ Score = 79.7 bits (195),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 45/136 (33%), Positives = 72/136 (53%), Gaps = 1/136 (1%)
+
+Query  995   GKCEACQSFARKQCKEPLLNHDVPDRPWAKVGTDIFTLDDNNYLVTVDYFSNFFEID-KL  1053
+              +CE CQ       +EPL   D+P RP+  V  D+F + + +YL   D  S +  ++  +
+Sbjct  3     AECEECQKLRSSLQREPLEADDLPKRPFDSVSADLFQIGNKHYLAYADRLSGYPLVNCWM  62
+
+Query  1054  EDMTSRCVIGKLKQHFARHGIPNQLVSDNAQTFKSEKFKQFTLQWDFEHVTSSARYPQSN  1113
+             +  TS  VI +++++F+  G P +  SD    F S +   F  ++  EH  S+  +PQSN
+Sbjct  63    KVPTSAQVIKEVREYFSLFGKPLKFRSDGGGQFDSGEMHAFLQEFCVEHGKSAPHHPQSN  122
+
+Query  1114  GKAESAVKRAKSLIKK  1129
+             G AE  VK  + L+KK
+Sbjct  123   GHAERNVKILRDLLKK  138
+
+
+>gb|ECU43885.1| hypothetical protein GOS_4362818, partial [marine metagenome]
+Length=271
+
+ Score = 80.1 bits (196),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 52/204 (25%), Positives = 102/204 (50%), Gaps = 11/204 (5%)
+
+Query  675  GVVNYLTKFLGNLSDICEPIRTL-----THKDAIWN-WTHEHDEAFKNIKTAVCNVPVLR  728
+            G+  Y  +F+ + + I  P+R +     +++  I   W     ++F  +K A+ + P+L 
+Sbjct  28   GMAAYYRRFIKDFAHILYPLRKIENVFKSNEMPIGQLWGENQQKSFNAVKAALASAPILI  87
+
+Query  729  YFDSRLNTVLQCDASETGLGATLMQ--EG--QPVAYASRALTSTEQNYAQIEKELLAVVF  784
+            + D     ++  D S   +G+ +MQ  +G  +P+AY SRALT  E  Y   +KE  A  +
+Sbjct  88   FPDFTKPFIVTSDCSNWAMGSCIMQVKDGLERPIAYNSRALTKHEYKYGITDKEGAAATW  147
+
+Query  785  GFEKFHQFTYGRRVVVESDHKPLETISKKALHKAPKRLQRMLLRLQLYDFEIIYKKGKDM  844
+                  Q+ +G + ++ +DH  L++++     K+ +R  R  + L  Y   I+++ G  +
+Sbjct  148  AMRSNRQYLHGTQCILVTDHSALKSLTGTKELKS-QRQTRYAMDLSEYAVTIVHRAGAML  206
+
+Query  845  HIADTLSRAYLQNSCESTSLGEVR  868
+            H+ D LSR    N   ++ + ++R
+Sbjct  207  HLPDALSRLGYTNKHSASVVEQLR  230
+
+
+>gb|EDB58000.1| hypothetical protein GOS_1631623, partial [marine metagenome]
+Length=240
+
+ Score = 79.0 bits (193),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 66/241 (27%), Positives = 112/241 (46%), Gaps = 27/241 (11%)
+
+Query  765  LTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPLETI---SKKALHKAPKR  821
+            L+ +E  Y QI+KE  A+ +  +KFHQ+ YGR  ++ +DHKPL +I    K        R
+Sbjct  1    LSRSEARYNQIDKEATAIFWSLKKFHQYCYGRSFILVTDHKPLISIFNPHKTLPTITATR  60
+
+Query  822  LQRMLLRLQLYDFEIIYKKGKDMHIADTLSRAYLQNSCESTSLGEVRSVQSEFEKEVETV  881
+            L      L  +++ I Y+       AD LSR             EV+  Q +   + +  
+Sbjct  61   LFNYAHFLSGFNYTIEYRNTVAHANADYLSR---------NPFDEVKEEQ-DIPTKFQLK  110
+
+Query  882  CLTDFLAVTPSRQEKIRAATQLDPTLAIVIEQIKCGWISKETPPEAKPYFNIR-DELSVE  940
+             LT FL       E+I   ++ D TL  ++E ++ G   +E        F  + +E++ +
+Sbjct  111  QLTTFLLSG----EQIVHDSRDDSTLKPILEALQEGHSLEE--------FGYKNNEITQQ  158
+
+Query  941  NNIIFRGERCVIPRCMRRDILDQIHT-HIGVEGCLNRARQCVFWPNMTSEIKDFIGKCEA  999
+            +  +FRG R +IP   + +IL ++H  H+G+      AR   +W  +   I+  +  C+ 
+Sbjct  159  DGCLFRGPRVIIPAKRQAEILQELHVGHLGMVRMKALARSFCYWRGIDQNIEKLVRSCKR  218
+
+Query  1000 C  1000
+            C
+Sbjct  219  C  219
+
+
+>gb|ECA08093.1| hypothetical protein GOS_6307318, partial [marine metagenome]
+Length=304
+
+ Score = 79.0 bits (193),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 57/239 (24%), Positives = 105/239 (44%), Gaps = 20/239 (8%)
+
+Query  447  KEKLKCELQRMEKANIITKVETPTDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPL  506
+            KE ++  L+++    +I+++ +   W   +V+V KP    R+C+DP  LN+A     + +
+Sbjct  14   KEFVRKHLRKLVDKGVISRINSA--WCCPIVLVLKPDLTYRLCVDPNALNQATVPMVWEI  71
+
+Query  507  PIIEDLLPE-LSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETP-FGRYRWNKMPFGISP  564
+            P + +LL   L     F K D  + FW ++LDE S  L  F     G Y +N+   G   
+Sbjct  72   PRVRELLQTLLHNVMWFCKFDFISMFWQIELDEASRKLFCFYAGDLGTYCFNRCAMGALN  131
+
+Query  565  APEYFQQFLEKNLEGL----------DGVKPIADDILIYGKGETFQDAVKDHDRKLEKLL  614
+            +  Y Q+ +    E +          +G+  + DD+L+Y   E     +      L+  L
+Sbjct  132  SSVYTQRVVTGIFENVYLPDGRPLLSNGLLILCDDVLLYADTEEQMLII------LDLFL  185
+
+Query  615  KRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRL  673
+                E  + ++  K  L KT   + G  +T  G+  D  +++ +  +  P +   V + 
+Sbjct  186  TAVAEHRMAIHPGKCVLFKTSTTYCGLRVTRTGIAVDPDRLQGLRAVSPPENVGHVWQF  244
+
+
+>gb|ECE52112.1| hypothetical protein GOS_6364275, partial [marine metagenome]
+Length=305
+
+ Score = 79.0 bits (193),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 67/305 (22%), Positives = 126/305 (41%), Gaps = 24/305 (8%)
+
+Query  557  KMPFGISPAPEYFQQFLEKNLEGLDGVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKR  616
+            ++  G S A  YF   +    + +DG+    DD++I  + +      + H   LE     
+Sbjct  2    RLLMGDSNAVGYFHNVIGIVFKDVDGLVHYIDDVVIGSEDD------EKHLETLEHFFNL  55
+
+Query  617  CKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGV  676
+            CKE  + L   K  +   E+  +G  ++    +P       + + + P+    ++  LG+
+Sbjct  56   CKEHKLLLKPKKSFVGYPEVTSMGATISAASYRPREGIAAKVEQWEFPTSASEMRSFLGL  115
+
+Query  677  VNYLTKFLGNLSDICEPIRTLTHKDAIWNW---THEHDEAFKNIKTAVCNVPVLRYFDSR  733
+             NY   ++    +  + ++ L +     NW   T E  + F+ +KTA+ N   L      
+Sbjct  116  TNYFRDYVHGYHNKSDRLQQLCN-----NWKTPTEEDKQDFETLKTAIKNAQRLHVPRDD  170
+
+Query  734  LNTVLQCDASETGLGATLMQ----EGQ--PVAYASRALTSTEQNYAQIEKELLAVVFGFE  787
+            L   L  D+SE G+G    Q     G+  P+ + S+  + T + +   E+E   +     
+Sbjct  171  LTVYLHTDSSEVGIGGYCFQICPESGKELPLRFISKRYSQTARRWNTTEQEAFGIYQSIA  230
+
+Query  788  KFHQFTYGRRVVVESDHKPLETISKKALHKAPKRLQRMLLRLQLYDFEIIYKKGKDMHIA  847
+                   GR  ++ +DH+ L  +         K++ R  + L  + F + +  G+   IA
+Sbjct  231  ACADLLLGRTFILRTDHRALVYMDD----SMKKKVMRWRIGLLDFHFVVEHIAGRANVIA  286
+
+Query  848  DTLSR  852
+            D LSR
+Sbjct  287  DFLSR  291
+
+
+>gb|EBR12146.1| hypothetical protein GOS_7649834, partial [marine metagenome]
+Length=302
+
+ Score = 78.6 bits (192),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 65/271 (24%), Positives = 128/271 (47%), Gaps = 20/271 (7%)
+
+Query  423  ELHLEIDDSVTPVKM-PVRRVPLGLKEKLKCELQRMEKANIITKVETPTDWVSSLVVVKK  481
+            E+ L++ D V P++  P R  P  ++   +  +Q      II  + +  +W +  ++V K
+Sbjct  42   EVDLDLSD-VKPIRAHPYRWSPAKVQAGRQL-VQEFIDDGIIKPITS--EWGAPALIVPK  97
+
+Query  482  PSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESS  541
+             +G  R+ +D + LNK +    Y  P  +  L  LS     +  D++  F  V L + + 
+Sbjct  98   KNGH-RLVVDLRELNKHIPHDTYEPPSCDLCLEWLSGKPYRTTADMRWGFHQVLLSKRAQ  156
+
+Query  542  YLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGL--DGVKPIADDILIYGKGETF  599
+             + TF TPFG + + ++  G   A   FQ+ +   L  L  D    + DD+ I  + +  
+Sbjct  157  KIFTFVTPFGTFAYQRLVMGYINATAEFQRHINNTLGPLLWDTCLAMVDDLCIASETK--  214
+
+Query  600  QDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIM  659
+                ++H   +  +L    +R+  +   K  + +  + ++GH+ T +G +P S  ++AI+
+Sbjct  215  ----EEHRVHVTAVLTALAQRHHSIKASKMHILRKIIEYLGHMSTPHGTQPTSKHIDAIV  270
+
+Query  660  KMQKP------SDKKAVQRLLGVVNYLTKFL  684
+             M  P      +DK  V+  LG+V ++ +++
+Sbjct  271  CMPAPLGDDGLADKTRVRSFLGMVKFVRRYI  301
+
+
+>gb|ECA97784.1| hypothetical protein GOS_6208312, partial [marine metagenome]
+Length=314
+
+ Score = 78.6 bits (192),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 45/125 (36%), Positives = 71/125 (57%), Gaps = 5/125 (4%)
+
+Query  474  SSLVVVKKPSGK-LRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFW  532
+            S  V+V+K  GK  R+ +D + +N A  + HYPL  ++  L  + +AK+FS  D   AFW
+Sbjct  185  SPPVLVRKSDGKSWRVALDFRHVNDACLKQHYPLRPVQACLDAMHKAKIFSTLDCVAAFW  244
+
+Query  533  HVKLDEES--SYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLDGVKPIA--D  588
+            ++ + + +  S +TT  TP+GRY    MP G+  A  ++Q+ ++  L GL     I+  D
+Sbjct  245  NIPVSQRTIDSGITTINTPWGRYAMRGMPMGLQAASAHYQRCMDLLLAGLQPEIAISYID  304
+
+Query  589  DILIY  593
+            DI IY
+Sbjct  305  DIAIY  309
+
+
+>gb|EBB16748.1| hypothetical protein GOS_278528, partial [marine metagenome]
+Length=306
+
+ Score = 77.4 bits (189),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 71/292 (24%), Positives = 119/292 (41%), Gaps = 43/292 (15%)
+
+Query  470  TDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYP----------LPIIEDLLPELSEA  519
+             DW + ++ V K +G +RI  + + LNK   R+ +P          +P I     +  + 
+Sbjct  18   ADWCAPMMTVGKKAGGVRIVTNFRGLNKWCNRAPHPTQDTLRQVLSIPAISQEEKKKGKK  77
+
+Query  520  KVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQ-----FL-  573
+              FS  D  N +  + + ++S +  TF T FGRYR+   P G   + +++ Q     F+ 
+Sbjct  78   LFFSSLDAWNGYHSIPVHKDSRHYLTFTTEFGRYRYKVAPQGFLGSGDHYTQTTNDIFIR  137
+
+Query  574  ---EKNLEGLDGVKPI----------------ADDILIYGKGETFQDAVKDHDRKLEKLL  614
+               E N +   G K I                 DD L +    T++D++    R++  LL
+Sbjct  138  EIDETNKQTPPGQKKIWQCPVISQTSIPMKRCIDDTLTWAG--TYEDSL----RQVWSLL  191
+
+Query  615  KRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLL  674
+                +  I  N DK E+ K  +   G  L E G+ P      AI   + P   K ++  +
+Sbjct  192  YWGAKSGIIFNPDKVEIGKKSIKAFGFRLDETGIHPTKEMKAAISGFELPQTLKQMRAFM  251
+
+Query  675  GVVNYLTKFL-GNLSDICEPIRT-LTHKDAIWNWTHEHDEAFKNIKTAVCNV  724
+            G++  +   L     D+   +R  L  K     WT+   + F  +K A  N 
+Sbjct  252  GLIAQVGWTLDSGTRDLMYELRGKLRGKKKALGWTNYEKDVFTRLKIAAANA  303
+
+
+>gb|ECE47835.1| hypothetical protein GOS_6317383, partial [marine metagenome]
+Length=300
+
+ Score = 76.3 bits (186),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 67/285 (24%), Positives = 118/285 (41%), Gaps = 34/285 (12%)
+
+Query  529  NAFW---HVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLE------KNLEG  579
+            +A W      LDE +  L    +  G Y W +MPFG +PAP   Q ++       K+ +G
+Sbjct  14   DAIWGYTQFALDESTKRLLVVCSRSGLYEWQRMPFGPAPAPAEMQSYVHSKFGSLKDKQG  73
+
+Query  580  LDGVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFI  639
+                    DD+ I          +++H   L++L +  +    +   DK + ++ E+ F 
+Sbjct  74   QRFCFACMDDLKISSA------TLEEHIEHLQQLCEEARNDGFEFKWDKCQCNREELEFW  127
+
+Query  640  GHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLG----NLSDICEPIR  695
+            G ++   G +    K+E + K  +P    +V   L  VNYL  FL         +  P R
+Sbjct  128  GVMVGARGRRCMPKKIEQLEKWPEPHSADSVNSFLSFVNYLRDFLPPEWLEHERVLRPFR  187
+
+Query  696  TLTHKDAIWNWTHEHDEAFKNIKTAV---CNVPVLRYFDSRLNTVLQC------DASETG  746
+                    W+   ++  AF  I+  +   C +   R  D+       C      DAS+  
+Sbjct  188  KKNADFTPWHKDDKYKSAFYKIRDMLNVHCVLHHPRLDDAARPEESGCPFEMFIDASDYA  247
+
+Query  747  LGATLMQEGQP------VAYASRALTSTEQNYAQIEKELLAVVFG  785
+              A L Q  +P      ++  +++  +T+Q ++ +E+EL A+  G
+Sbjct  248  WAAVLTQRLEPHGAPKIISIKAKSFDATQQRWSAMERELYALWRG  292
+
+
+>gb|ECP09618.1| hypothetical protein GOS_6358254, partial [marine metagenome]
+Length=257
+
+ Score = 75.1 bits (183),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 62/243 (26%), Positives = 107/243 (44%), Gaps = 11/243 (5%)
+
+Query  426  LEIDDSVTPVKMPVRRVPLGLKEKLKCELQRMEKANIITKVETP--TDWVSSLVVVKKPS  483
+            +E+D  ++ VK P+R  P           +++ +  +   +  P  ++W +  +VV KPS
+Sbjct  13   VEVDLDLSGVK-PIRAHPYRWSPAKVAAGRKLIQEFVEEGIMEPITSEWGAPALVVPKPS  71
+
+Query  484  GKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYL  543
+            G  R+ ID + LN+ +    Y  P  +  L  LS  +  +  D++  F  V L E +  +
+Sbjct  72   GGWRLVIDLRELNRHIPHDTYEPPSCDLCLEWLSGRRYRTTADMRWGFHQVLLSERARKI  131
+
+Query  544  TTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGL--DGVKPIADDILIYGKGETFQD  601
+             T  TPFG Y + ++  G   A   FQ+ +   L     D    + DD++I    ET Q 
+Sbjct  132  FTLVTPFGTYAYKRLVMGYINATAEFQRHMNNTLGPALWDYCLSMVDDVII--GSETKQ-  188
+
+Query  602  AVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKM  661
+               +H   +     R  +R   +   K  + +  + ++GH  T  G +P    + AIM M
+Sbjct  189  ---EHRVHVASGFTRLAQRGHAIKPTKGHILRKIIEYLGHESTPFGTRPTKKHITAIMGM  245
+
+Query  662  QKP  664
+              P
+Sbjct  246  PPP  248
+
+
+>gb|ECC87400.1| hypothetical protein GOS_5685133, partial [marine metagenome]
+Length=213
+
+ Score = 73.9 bits (180),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 37/121 (31%), Positives = 68/121 (56%), Gaps = 1/121 (1%)
+
+Query  928   KPYFNIRDELSVENNIIFRGERCVIPRCMRRDILDQIH-THIGVEGCLNRARQCVFWPNM  986
+             K ++ +RD+L V  ++ F+G++ +IP+ +R  +LD +H  H GV G    AR+ +FWP +
+Sbjct  63    KHFWPMRDDLYVIEHVTFKGKKMLIPKKLRTRVLDGLHVAHQGVTGMQLNARERLFWPGL  122
+
+Query  987   TSEIKDFIGKCEACQSFARKQCKEPLLNHDVPDRPWAKVGTDIFTLDDNNYLVTVDYFSN  1046
+             ++ IK    +C+ C   A  Q  EP +    P +P+ +V  D +    + Y++  D +S 
+Sbjct  123   SAAIKLKRDQCKRCNENAPSQHDEPQIITPKPLKPFKQVAVDFYQRCGHYYVIYADRYSG  182
+
+Query  1047  F  1047
+             +
+Sbjct  183   W  183
+
+
+>gb|ECF41598.1| hypothetical protein GOS_6342984, partial [marine metagenome]
+Length=313
+
+ Score = 74.3 bits (181),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 71/312 (23%), Positives = 128/312 (41%), Gaps = 22/312 (7%)
+
+Query  470  TDWVSSLVVVKKPSG---KLRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCD  526
+            +DW +  ++V KP+    + R+ +D + LNK +    +  P  E  L  L+     S  D
+Sbjct  6    SDWAAPALLVPKPNTSPVEWRLVVDYRELNKLIAHDTFEPPSCELCLNWLAGKPFRSSAD  65
+
+Query  527  VKNAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEG--LDGVK  584
+            ++ AF    + E       F  PFG Y +N++  G   +   FQ+ +             
+Sbjct  66   LRWAFHQCGISERMKKHFAFVLPFGTYTYNRLVMGFINSTAEFQRCVNHTCGDSLWRCCV  125
+
+Query  585  PIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLT  644
+             + DD++I  + E      + H   + ++  +   R   +   K +L +  + ++G + T
+Sbjct  126  AMVDDLIIASETE------EQHISDIIEVFTKLASRGHSIKAAKLKLLQEHIEYLGRIST  179
+
+Query  645  ENGVKPDSAKVEAIMKMQKPSD---KKAVQRL---LGVVNYLTKFLGNLSDICEPIRTLT  698
+              GV        A++ M  P D   K  V RL   LG+  +   ++   + +C P+  LT
+Sbjct  180  PWGVMVSPRHKSAVLDMPYPLDDDGKVDVTRLRSGLGLFKFCRAYIPKCAWLCAPLNNLT  239
+
+Query  699  HKDAIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQ----E  754
+              D +  W   H+  +  +K  V     L + D +    +  D S+ G+G  + Q    E
+Sbjct  240  SPD-VNTWEPIHEFCWDALKYFVVYSKGLYHIDYKKPIYVCTDGSKRGVGGYVYQKDGKE  298
+
+Query  755  GQPVAYASRALT  766
+                +Y SR  T
+Sbjct  299  ESVCSYFSRQTT  310
+
+
+>gb|EBZ20423.1| hypothetical protein GOS_6302509, partial [marine metagenome]
+Length=317
+
+ Score = 74.3 bits (181),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 55/161 (34%), Positives = 81/161 (50%), Gaps = 17/161 (11%)
+
+Query  709  EHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCD-ASETGLG-------ATLMQEG-----  755
+            E  +A + +  A+C  PVL Y  S     ++ D A + G+G       AT +++G     
+Sbjct  29   ECQKALRVLADAICEDPVLAYPRSDRPFYVKTDGAMKRGIGGVLVQHYATTLEDGTPSFI  88
+
+Query  756  -QPVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDH---KPLETIS  811
+             +PVAY  R L   E+NY   E ELLAVV   + +  + +GR+  + +DH   K L T+ 
+Sbjct  89   ERPVAYYGRRLQDAEKNYTVTEIELLAVVECLKHWRGYLWGRKFHLITDHAALKWLHTMR  148
+
+Query  812  KKALHKAPKRLQRMLLRLQLYDFEIIYKKGKDMHIADTLSR  852
+              A      RL R ++RLQ Y F++ +K G     AD LSR
+Sbjct  149  DTAEGGVSSRLTRWVMRLQEYQFDVTHKPGLLHQDADALSR  189
+
+
+>gb|EBH80177.1| hypothetical protein GOS_9200170, partial [marine metagenome]
+Length=109
+
+ Score = 70.9 bits (172),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 41/102 (40%), Positives = 59/102 (58%), Gaps = 6/102 (6%)
+
+Query  690  ICEPIRTLTHKDAIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQC-DASETGLG  748
+            +  P+  L  KD  +N+ H    AF  IK+A+ +  VL  FDS    VL   DAS  G+G
+Sbjct  1    MASPLNQLLKKDTQFNFDHTCKTAFSKIKSALSSHLVLVQFDSEKPLVLAATDASPVGVG  60
+
+Query  749  ATL---MQEGQ--PVAYASRALTSTEQNYAQIEKELLAVVFG  785
+            A L   M +G   P+AYA + L S+E+NY+Q ++E  A++FG
+Sbjct  61   AVLSHIMPDGNEGPIAYARKTLNSSERNYSQFDEEAYAIIFG  102
+
+
+>gb|ECL57627.1| hypothetical protein GOS_6349639, partial [marine metagenome]
+Length=328
+
+ Score = 73.9 bits (180),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 65/252 (26%), Positives = 111/252 (44%), Gaps = 43/252 (17%)
+
+Query  553  YRWNKMPFGISPAPEYFQQFLEKNLEGLDGVKPI-ADDILIYGKGETFQDAVKDHDRKLE  611
+            YR+ +  +G+   P  F   +   L+GL+       DDILI+ K         DH + LE
+Sbjct  80   YRFTRGVYGLCNLPATFATVIAFVLQGLEFCTATWVDDILIFSK------TYDDHLKHLE  133
+
+Query  612  KLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQ  671
+             +L+R    NI L   K  L +  + ++GH++ ENG+     K++ I++  +P++   ++
+Sbjct  134  LVLRRLALANITLKMSKAALMRRSLEYLGHIVDENGMHVHEDKLKEILEFPRPTNLTELR  193
+
+Query  672  RLLGVVNYLTKFLGNLSDICEPIRTLT-------HKDAI---------------------  703
+              LG +N+L ++   LS+  +P+  L         K+A+                     
+Sbjct  194  CWLGKLNFLRRYWVCLSEHLDPLHDLLKKQQAEGRKEAMKRAKTNTNTQAESNALAKRAA  253
+
+Query  704  -------WNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQ-EG  755
+                   + WT E + AF  +K      PV  + D +L  VL  DAS +   A LMQ + 
+Sbjct  254  LETARLPFEWTSECELAFNKVKRLASQPPVRGFIDFKLPVVLYTDASLSAASALLMQWQH  313
+
+Query  756  QPVAYASRALTS  767
+             P  Y ++ L +
+Sbjct  314  GPEGYPAKILGA  325
+
+
+>gb|ECQ45277.1| hypothetical protein GOS_5601680, partial [marine metagenome]
+Length=260
+
+ Score = 72.8 bits (177),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 56/216 (26%), Positives = 101/216 (47%), Gaps = 17/216 (8%)
+
+Query  442  VPLGLKEKLKCELQRMEKANII---TKVETPTDWVSSLVVVKKPS--GKLRICIDPKPLN  496
+            +P   +   K  +  M KA II   T+ + P+DW++      KP    KLR+  D + LN
+Sbjct  48   IPFHHEALAKKMVDDMCKAGIIKLLTEKDPPSDWLAPAFFAPKPGQPDKLRLLTDFRALN  107
+
+Query  497  KALKRSHYPLPIIEDLLPELS-EAKVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRW  555
+              + R        E +  ++  ++K F   D   A+  V++ E+S     F  P+G Y++
+Sbjct  108  SQVSRPVRSFNTGEQIWRQVKPDSKFFISMDALGAYHQVRISEDSKQYCRFLLPWGAYQY  167
+
+Query  556  NKMPFGISPAPEYFQQFLEKNLEGLDGVKPIADDILIYGKGETFQDAVKDHDRKLEKLLK  615
+               P G   + + +    ++ L G   +K + DDIL+         ++    ++L+ +L 
+Sbjct  168  ESAPMGFISSGDIWNIVSDEALTGSAALKEV-DDILLQ------SSSISGLAQELDDVLN  220
+
+Query  616  RCKERNIKLNKDKFELHKTE----MPFIGHLLTENG  647
+            RCK++NI ++K K  L  +E    +PF G ++   G
+Sbjct  221  RCKKKNITISKKKVNLTTSENGHKIPFAGFMIGREG  256
+
+
+>gb|ECN45860.1| hypothetical protein GOS_5852263, partial [marine metagenome]
+Length=266
+
+ Score = 72.4 bits (176),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 48/194 (25%), Positives = 90/194 (46%), Gaps = 8/194 (4%)
+
+Query  457  MEKANIITKVETPTD--WVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDLLP  514
+            M K  I+ KV       + S L +  K  G  R C D + LN+      Y LP + +   
+Sbjct  78   MVKLGIVEKVSATEQHYYSSPLHLQTKSDGSERPCGDFRLLNEQTLPDVYQLPNLNNFTS  137
+
+Query  515  ELSEAKVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLE  574
+             +  +  FSK D+  AF  + + ++        TP+G +++ ++ FG+  AP  FQ+F +
+Sbjct  138  NIKRSNFFSKVDLVKAFHFIPIRDQDQLKCCVNTPWGLFKFKRLAFGLRNAPASFQKFAD  197
+
+Query  575  KNLEGLDGVKPIADDILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKT  634
+            +  + +  V    DD L+      F D+ ++H + L ++ +R  E  + +   K    + 
+Sbjct  198  EVFKDIPNVYVYLDDCLV------FTDSYEEHIKTLRQIFQRLSEYGLAIALPKCAFAQP  251
+
+Query  635  EMPFIGHLLTENGV  648
+             + F+G+ +  +GV
+Sbjct  252  TVDFLGYKVDNSGV  265
+
+
+>gb|ECP88266.1| hypothetical protein GOS_4318368, partial [marine metagenome]
+Length=172
+
+ Score = 71.6 bits (174),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 45/157 (29%), Positives = 76/157 (48%), Gaps = 10/157 (6%)
+
+Query  685  GNLSDICEPIRTLTHKDAIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASE  744
+            G  + I +P+R L  K++I+ W  E   ++  I  A+ +   L  +D  L      DA  
+Sbjct  13   GAYAHITQPLRKLLGKNSIFEWGPEQQRSYNEIIKALESAGALYPYDPDLEIRHVADAQP  72
+
+Query  745  TGLGATLM---------QEGQPVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYG  795
+            TG+ +++          +   P+ + SR+LT+TE +Y QI++E LA  +G  +   +  G
+Sbjct  73   TGIASSVYMITTDSAGEETWWPLNHISRSLTATESSYPQIDRESLAQTWGMRQQMFYLIG  132
+
+Query  796  RRVVVESDHKPLETISKKALHKAPKRLQRMLLRLQLY  832
+            R      DHKPL        H  P R+++ LL +Q +
+Sbjct  133  RTFTTYCDHKPLLPFFNGTKHPTP-RVEKHLLSIQTW  168
+
+
+>gb|EBR12308.1| hypothetical protein GOS_7649583, partial [marine metagenome]
+Length=224
+
+ Score = 71.6 bits (174),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 48/221 (22%), Positives = 100/221 (45%), Gaps = 10/221 (5%)
+
+Query  470  TDWVSSLVVVKKPSGK-LRICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVK  528
+            +DW     +V KP GK  R+ +D + LN+  K+  Y  P  +  L  + +    +  D++
+Sbjct  7    SDWSFPASIVPKPGGKGFRLVVDLRELNERTKQDRYEPPNCDLCLEWIQQRPFRTIFDLR  66
+
+Query  529  NAFWHVKLDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLDGVKPIAD  588
+              F  ++L   +  + TF +P G + + ++  G   +   FQ+ +        G      
+Sbjct  67   WGFHQLELSNATKKVFTFTSPLGIFSYCRLLMGYINSTAIFQRVVNNTF----GTSLWKS  122
+
+Query  589  DILIYGKGETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGV  648
+             + +   G    + ++ H     +   R  +R+  +  +K  +  TE  ++GH++TE  +
+Sbjct  123  VVAMVDDGVIGSEQLQQHRDDNTEAWTRMAQRHHSIKTNKMTVLPTEFKYLGHVVTEKTL  182
+
+Query  649  KPDSAKVEAIMKMQKP-----SDKKAVQRLLGVVNYLTKFL  684
+            +P    V+AI +M +P      D   ++  +G+V YL +++
+Sbjct  183  RPSDDHVKAIKEMPEPVSNGIVDVSGLRSFIGMVKYLRRYI  223
+
+
+>gb|ECO99578.1| hypothetical protein GOS_3269800, partial [marine metagenome]
+Length=156
+
+ Score = 70.9 bits (172),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 39/154 (25%), Positives = 71/154 (46%), Gaps = 10/154 (6%)
+
+Query  635  EMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQRLLGVVNYLTKFLGNLSDICEPI  694
+            E+  +GH + + G+     K+  ++  Q P     +   +G+ NY  K +G+++ +  P+
+Sbjct  3    EVEILGHSMDDTGIHFSREKLTGVLDFQLPETGSNLHTFVGLCNYFRKHVGDIAKLESPL  62
+
+Query  695  RTLTH-----KDAIWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGA  749
+            R L       +   W    E  EAF  ++ AV   P L +++  +   L  DA   G+GA
+Sbjct  63   RGLIALYSGTRKIQWAKHPEAKEAFYKLQEAVGKCPKLFFYNEHMPVYLHTDACNNGIGA  122
+
+Query  750  TLMQ-----EGQPVAYASRALTSTEQNYAQIEKE  778
+             L Q     E  P+ + S++L   E  ++  E+E
+Sbjct  123  YLFQVDEHGEEYPIGFMSQSLRGAELGWSTFEQE  156
+
+
+>gb|ECB44927.1| hypothetical protein GOS_4313506, partial [marine metagenome]
+Length=262
+
+ Score = 71.2 bits (173),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 51/155 (33%), Positives = 76/155 (49%), Gaps = 8/155 (5%)
+
+Query  704  WNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGATLMQEGQ----PVA  759
+            ++WT +  +AF      + + PV++  D     VL  DAS + +GA LMQ  +    PVA
+Sbjct  3    FDWTTDCQQAFDTFVEILTSDPVVKLPDFDKPFVLVTDASGSAIGACLMQPTEDRLMPVA  62
+
+Query  760  YASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVE--SDHKPLETISKKALHK  817
+            Y SR L   E NY+    E LAVV    KF  + +G +  +   +DH+ L+ +  +    
+Sbjct  63   YESRQLRGAELNYSAQHLEALAVVHSVRKFRYYLWGSKFSIRILTDHRSLQHL--RTQRD  120
+
+Query  818  APKRLQRMLLRLQLYDFEIIYKKGKDMHIADTLSR  852
+               RL R    L  +D+ I Y  G+   +AD LSR
+Sbjct  121  LQGRLARWQEILSEFDYHIEYLPGRSNVLADALSR  155
+
+
+>gb|ECC71142.1| hypothetical protein GOS_6334356, partial [marine metagenome]
+Length=271
+
+ Score = 70.9 bits (172),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 61/198 (31%), Positives = 96/198 (48%), Gaps = 18/198 (9%)
+
+Query  670  VQRLLGVVNYLTKFLGNLSDICEPIRTLTHKD----AIWNWTHEHDEAFKNIKTAVCNVP  725
+            V+  LG+ +Y  +F+   S I   +  LT KD    A+ +   E   A + + TA+ + P
+Sbjct  12   VRSFLGLCSYYRRFIHGFSRIAACLHNLT-KDGVDVAVISQGEECQNAIRTLITAITSEP  70
+
+Query  726  VLRY--FDSRLNTVLQCDASET-GLGATLMQ---EGQP--VAYASRALTSTEQNYAQIEK  777
+            +L    FD     +++ DA+ T G+G  L Q   EG    +AY  R L   E++Y   E 
+Sbjct  71   ILATPRFDRPF--IVKTDAANTEGIGGVLSQQDDEGHERVIAYYGRKLNKHERHYTVTEI  128
+
+Query  778  ELLAVVFGFEKFHQFTYGRRVVVESDHKPLETIS--KKALHKAP-KRLQRMLLRLQLYDF  834
+            ELLA +   + +  + +GR   +  DH  L  +   +  +   P  RL R +LRLQ Y+F
+Sbjct  129  ELLAAIASIKAWRSYLWGREFKLVIDHVALRWLHTMRDTMEGGPASRLMRWILRLQEYNF  188
+
+Query  835  EIIYKKGKDMHIADTLSR  852
+             + +K G     AD +SR
+Sbjct  189  TVEHKPGVIHKDADGVSR  206
+
+
+>gb|EBR00474.1| hypothetical protein GOS_7665116, partial [marine metagenome]
+Length=96
+
+ Score = 68.6 bits (166),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 32/95 (34%), Positives = 54/95 (57%), Gaps = 2/95 (2%)
+
+Query  459  KANIITKVETPTDWVSSLVVVKKPSGKLRICIDPKPLNKALKRSHYPLPIIEDLLPELSE  518
+            +A +I +  +P  W S L+ V+ P G  RIC+D + LN+   +  YP+   ++ L +L  
+Sbjct  4    EAGLIQESNSP--WCSPLLCVRTPDGSFRICMDARKLNELTIKDAYPVHNAQENLKKLGG  61
+
+Query  519  AKVFSKCDVKNAFWHVKLDEESSYLTTFETPFGRY  553
+            + +FS  D+ + FW + LD+ES   T   TP+G +
+Sbjct  62   SILFSAMDLLSGFWQINLDDESKQKTAVATPYGLF  96
+
+
+>gb|EBF44289.1| hypothetical protein GOS_9596825, partial [marine metagenome]
+Length=431
+
+ Score = 72.8 bits (177),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 87/395 (22%), Positives = 155/395 (39%), Gaps = 51/395 (13%)
+
+Query  937   LSVENNIIFRGERCVIPRCMRRDILDQIHT-----HIGVEGCLNRARQCVFWPNMTSEIK  991
+             +S  + ++ +  + V+P+ +RR +  ++H      H+GV    NRA Q  +WP M ++IK
+Sbjct  43    VSETSGLLLKQNKIVVPQTLRRRVFQKVHADPLAGHLGVHRTYNRAAQRFYWPGMYADIK  102
+
+Query  992   DFIGKCEACQSFARKQCKEPLLNHDVPDRPWAKVGTDIF-----TLDDNNY-LVTVDYFS  1045
+              +  +C +C        +   L   V   P   V  D+      T   N Y +V  D F+
+Sbjct  103   KWTLQCGSCLRAKDAAPRNLPLGAVVAAHPLDIVAMDVLGPLPETDAGNKYIIVACDLFT  162
+
+Query  1046  NFFEIDKLEDM-TSRCVIGKLKQHFARHGIPNQLVSDNAQTFKSEKFKQFTLQWDFEHVT  1104
+              F     L D  T R V   + +  A  G P QL++D    F+S   K        + + 
+Sbjct  163   RFMVTAALPDQRTPRVVDFVINKLVATLGTPRQLLTDQGPNFRSNDAKALYQALGAKKIW  222
+
+Query  1105  SSARYPQSNGKAE---SAVKRAKSLIKKCKHSHTDPMLALLN----------LRNTP-LQ  1150
+             ++  +PQ+NG  E     + R  +   +      D  L L+           + NTP   
+Sbjct  223   TTPYHPQTNGTVERFNRTLTRMLAAFVEANQRDWDMYLGLVTSAYNTTLHAAVGNTPHFL  282
+
+Query  1151  STGYSPAEQSMNRQTRTLLPTKES--LLRPKTLIN-----VKTNLDKSKAKQSF------  1197
+             + G  P   ++  +  T  P+ +S  + R   ++      V+  +D+ + ++S       
+Sbjct  283   TFGRDPVNPALPSEPDTNAPSDQSHEVARATEVLEQAHELVRDFIDRRQTERSAANAGKP  342
+
+Query  1198  ------YYDRSAKPLPRLDMGTTVRIKPENSRDKWEKGLIVNSPKRRSYDVMTENGTTIN  1251
+                     DR     PR+  GTT ++    +R      L+     + +Y ++ E G    
+Sbjct  343   DPPVFDVNDRVLLFTPRVKQGTTTKL----ARLWRGPYLVTKKLSQFNYRIIPEQGGPA-  397
+
+Query  1252  RNRRHLRQSREKFTRADNDPSDQPSGPVQTDPIPD  1286
+                 HL + +      D+ P D    P + D + D
+Sbjct  398   -QVVHLTRLKTYTAADDSTPPDVLEDPAEEDVLLD  431
+
+
+>gb|ECR23773.1| hypothetical protein GOS_5987645, partial [marine metagenome]
+Length=217
+
+ Score = 70.1 bits (170),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 52/189 (28%), Positives = 88/189 (47%), Gaps = 6/189 (3%)
+
+Query  982   FWPNMTSEIKDFIGKCEACQSFARKQCKEPLLNHDVPDRPWAKVGTDIFTLDDNNY-LVT  1040
+             F+ NMT+ +      CE C+     + +EP     VP +P++++  D  +LD+  Y LV 
+Sbjct  2     FYVNMTAHVASVTRTCELCEQTKLSKRREPYGLRPVPAKPFSEISVDHKSLDNGFYVLVI  61
+
+Query  1041  VDYFSNFFEIDKLEDMTSRCVIGKLKQHFARHGIPNQLVSDNAQTFKSEKFKQFTLQWDF  1100
+             +D  S + ++  +   +       L ++F+    P  L SDN   + SEKFK+F  Q +F
+Sbjct  62    LDILSCYPDVAFVRSTSFEANKEPLLKYFSYFQTPLILRSDNGAPWNSEKFKEFARQQNF  121
+
+Query  1101  EHVTSSARYPQSNGKAESAVK-----RAKSLIKKCKHSHTDPMLALLNLRNTPLQSTGYS  1155
+             +H   + R P +N + E  ++        S I K +      + A+   R TP  + G S
+Sbjct  122   KHDLVTPRSPIANNEVERVMQIISKANEHSKILKDRLWRESILNAIKAKRCTPHTALGQS  181
+
+Query  1156  PAEQSMNRQ  1164
+             P E    R+
+Sbjct  182   PYEIVFGRK  190
+
+
+>gb|ECB00637.1| hypothetical protein GOS_6083479, partial [marine metagenome]
+Length=315
+
+ Score = 70.1 bits (170),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 61/263 (23%), Positives = 115/263 (44%), Gaps = 26/263 (10%)
+
+Query  613  LLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKVEAIMKMQKPSDKKAVQR  672
+            LL+  ++RN++   DK +     +P +G ++ E        K +A+     P+    V  
+Sbjct  3    LLRTARKRNVQFKLDKCKFVWNRLPMLGFVVGEGKRTVQPGKAQALRDWPDPTSLDDVVS  62
+
+Query  673  LLGVVNYLTKFLGNLSDICEPIRTLTHKDAIW-NWTHE--HDEAFKNIKTAVC-------  722
+                 NYL +F+   +++ + ++T T K A W  W+ +  + ++F+ ++T++        
+Sbjct  63   FRAFANYLREFIPRFAELDQRLKTATKKGAKWEEWSSDPLNLQSFREMRTSLSESTAFHM  122
+
+Query  723  -NVPVLRYFDSRLNTVLQCDASETGLGATLMQE------GQPVAYASRALTSTEQNYAQI  775
+             N    +   S     L  DA + G G TL Q        +P+   +++ + TEQ ++  
+Sbjct  123  PNFAAAQDPSSGRPFELFVDACDYGWGCTLAQRLVKGGVPKPICCYNKSFSPTEQAWSTF  182
+
+Query  776  EKELLAVVFGFEKFHQFTYGRRVVVESDHKPLETISKKALHKAPKRLQRMLLRLQLYDFE  835
+            ++EL  +            G   VV +DHK    +   +L    +R+Q+ LLR  L   E
+Sbjct  183  DRELCGLKDSLVAVDHLVRGFPCVVYTDHK--NNLFTGSLI-GNRRMQKKLLRWSLEVEE  239
+
+Query  836  I------IYKKGKDMHIADTLSR  852
+            +      ++ KG D  + D  SR
+Sbjct  240  LSKRVTRVWIKGTDYILGDAPSR  262
+
+
+>gb|EBR03994.1| hypothetical protein GOS_7660496, partial [marine metagenome]
+Length=280
+
+ Score = 69.7 bits (169),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 39/134 (29%), Positives = 71/134 (53%), Gaps = 10/134 (7%)
+
+Query  725  PVLRYFDSRLNTVLQCDASETGLGATLMQ------EGQPVAYASRALTSTEQNYAQIEKE  778
+            P+L + D +   +L+ DAS+ G+GA L Q      E +P+A+ S+ L  +++N++  EKE
+Sbjct  2    PLLYFPDPQAEVILETDASDYGVGAYLYQKDPAGGENRPIAFISKTLQGSQRNWSVPEKE  61
+
+Query  779  LLAVVFGFEKFHQFTYGRRVVVESDHKPLETISKKALHKAPKRLQRMLLRLQLYDFEIIY  838
+              A+    +K          ++ +DHK L  I+    +    ++ R  + +Q YDF+I +
+Sbjct  62   AYAIFHALQKLEHLLRDAHFLLRTDHKNLVYIN----YGNSAKIMRWKMMVQEYDFDIEH  117
+
+Query  839  KKGKDMHIADTLSR  852
+              G++  +AD  SR
+Sbjct  118  VSGEENIVADAFSR  131
+
+
+>gb|EBG38759.1| hypothetical protein GOS_9441647, partial [marine metagenome]
+Length=456
+
+ Score = 71.2 bits (173),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 53/197 (27%), Positives = 98/197 (50%), Gaps = 17/197 (9%)
+
+Query  949   RCVIPRCMRRDILDQIH--THIGVEGCLNR-ARQCVFWPNMTSEIKDFIGKCEACQSFAR  1005
+             + V+P+  +++++ ++H   H G E   N   RQ +++P+   EI+D I KC+ C+    
+Sbjct  82    KLVVPQECQKEVIRRLHEAGHGGEEATRNLLERQNLWFPSYRKEIRDAIKKCQGCKMGKI  141
+
+Query  1006  KQCK--EPLLNHDVPDRPWAKVGTDIFTL---DDNNY---------LVTVDYFSNFFEID  1051
+             K  +    +L+   P+  W  V  D  TL   D  N+         LV VD  S + +  
+Sbjct  142   KSGRGLARILHLPRPNNVWEMVCIDHVTLTGDDVENHQSEHYSPKVLVMVDLCSRYTKAA  201
+
+Query  1052  KLEDMTSRCVIGKLKQHFARHGIPNQLVSDNAQTFKSEKFKQFTLQWDFEHVTSSARYPQ  1111
+              +EDM +   I +L++ F   G P  L+SD+  +F S ++ ++ ++   +   +   +P 
+Sbjct  202   LVEDMRTETTIAQLEEWFWEFGFPRSLMSDSYPSFLSAEWDKWAVKRGIKLKYTPEYHPN  261
+
+Query  1112  SNGKAESAVKRAKSLIK  1128
+             SNG AE A++  +  +K
+Sbjct  262   SNGVAERAIQTIQEGLK  278
+
+
+>gb|ECG44870.1| hypothetical protein GOS_5725781, partial [marine metagenome]
+Length=279
+
+ Score = 69.3 bits (168),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 49/161 (30%), Positives = 75/161 (47%), Gaps = 20/161 (12%)
+
+Query  712  EAFKNIKTAVCNVPVLR---YFDSRLNTVLQCDASETGLGATLMQE---GQPV-------  758
+            E +  I   +C+ PVL    + D R   +++ D S  G+GA L QE     P+       
+Sbjct  23   EQWDAIMEELCSEPVLAHPDWSDDRSPFIVEVDTSSQGIGAILSQEQWVNDPITGERLPE  82
+
+Query  759  ------AYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRVVVESDHKPLETISK  812
+                  ++AS+ L   + NY+  + EL  V+   + +H F      +V SDHK L+ +++
+Sbjct  83   KQERVLSFASKRLKGAQTNYSAYKLELCGVLSAVQHWHYFLIDGPFIVRSDHKALKWLTE  142
+
+Query  813  KALHKAPKRLQRMLLRLQL-YDFEIIYKKGKDMHIADTLSR  852
+                K P  LQR   +L   Y+FE  +  G  M  AD LSR
+Sbjct  143  TINTKLPAVLQRWQEQLTGDYEFEFQWVPGSQMKGADALSR  183
+
+
+>gb|ECN46209.1| hypothetical protein GOS_5837327, partial [marine metagenome]
+Length=130
+
+ Score = 67.4 bits (163),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 35/122 (29%), Positives = 65/122 (53%), Gaps = 6/122 (5%)
+
+Query  536  LDEESSYLTTFETPFGRYRWNKMPFGISPAPEYFQQFLEKNLEGLDGVKPIADDILIYGK  595
+            + EE+  LTTF TP+G+Y   +   G++   + +   +    +G+  +K I DDIL Y +
+Sbjct  9    MSEEAQPLTTFITPWGQYMLCQAAMGLNSTEDNYNLLMGAAFDGIKDMKKIIDDILTYDQ  68
+
+Query  596  GETFQDAVKDHDRKLEKLLKRCKERNIKLNKDKFELHKTEMPFIGHLLTENGVKPDSAKV  655
+              +      +H   + +LL+RC+   I +++ KF   + E+ ++G ++    VK D  KV
+Sbjct  69   SSS------NHVADVRELLQRCQIHGISISQKKFVFSEPEVKYVGFIVNGESVKADPDKV  122
+
+Query  656  EA  657
+            +A
+Sbjct  123  KA  124
+
+
+>gb|ECE47275.1| hypothetical protein GOS_6335018, partial [marine metagenome]
+Length=201
+
+ Score = 68.2 bits (165),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 40/116 (34%), Positives = 63/116 (54%), Gaps = 6/116 (5%)
+
+Query  741  DASETGLGATLMQ----EGQPVAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGR  796
+            D S+ G+G  + Q    + + ++Y SR     EQ +   E E+LA++   E FH   +G+
+Sbjct  23   DGSKLGIGGYIYQNINGKERVISYFSRKTRKEEQKWDTRELEILALICTLEHFHVIIHGQ  82
+
+Query  797  RVVVESDHKPLETISKKALHKAPKRLQRMLLRLQLYDFEIIYKKGKDMHIADTLSR  852
+             + ++SDHK L  + ++       RL R +LRL  Y   I Y+KGK M +AD +SR
+Sbjct  83   TLSLQSDHKNLLWLMQQK--DLSGRLGRWVLRLSQYPMTISYRKGKYMEVADCMSR  136
+
+
+>gb|EDB58001.1| hypothetical protein GOS_1631624 [marine metagenome]
+Length=229
+
+ Score = 68.2 bits (165),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 64/247 (26%), Positives = 107/247 (43%), Gaps = 26/247 (11%)
+
+Query  1028  DIFTLDDNNYLVTVDYFSNFFEIDKLEDMTSRCVIGKLKQHFARHGIPNQLVSDNAQTFK  1087
+             D       +Y +  D F+ + E+   ++ T+   I +L+Q F    +P  +VSDN + F 
+Sbjct  4     DFAQTTSGHYFIINDPFTKWIEVIPTKNTTAEWCIKQLRQLFTVFELPLVVVSDNGEQFT  63
+
+Query  1088  SEKFKQFTLQWDFEHVTSSARYPQSNGKAESAVKRAKSLIKKCKHSHTDPMLA----LLN  1143
+             S  FK+F       + T++  +P +NG AE +V+  K  +   +    +P +     L+ 
+Sbjct  64    SYSFKKFLTDNGILNKTTAPFHPATNGHAERSVQTVKKALYAMQDEQGEPHVKLCRLLVQ  123
+
+Query  1144  LRNTPLQSTGYSPAEQSMNRQTRTLLPTKESLLRPKTLINVKTNLDKSKAKQSFYYDRSA  1203
+             LR TP  S+G S  E   +R  RT L                T + + K +     +R  
+Sbjct  124   LRRTP-NSSGKSAYELMFSRPIRTSL----------------TRMLERKTRHEEPLERDM  166
+
+Query  1204  KPLPRLDMGTTVRIKPENSR-DKWEKGLIVNSPKRRSYDVMTENGTTINRNRRHLRQSRE  1262
+              P     +G  V+ +  + R +KW+ G ++    R  Y +  ENG   N  RRH+ Q   
+Sbjct  167   -PSRNFIIGDAVQARDYSPRGEKWQFGNVIKKDGRLHYMLKMENG---NIWRRHVDQLLP  222
+
+Query  1263  KFTRADN  1269
+                R +N
+Sbjct  223   TNFRGEN  229
+
+
+>gb|ECI93325.1| hypothetical protein GOS_6341272, partial [marine metagenome]
+Length=141
+
+ Score = 66.2 bits (160),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 47/135 (35%), Positives = 68/135 (50%), Gaps = 10/135 (7%)
+
+Query  669  AVQRLLGVVNYLTKFLGNLSDICEPIRTLTHKDAIWNWTHEHDE----AFKNIKTAVCNV  724
+            AV+  LG  ++  K +   ++I  PI  LT K+ +   +    E    A   +K A+C+ 
+Sbjct  6    AVRSFLGACSFYRKHVKGFANIARPIVDLT-KNGVDVPSESQKEPAQAAIIQLKEALCSA  64
+
+Query  725  PVLRYFDSRLNTVLQCDASETGLGATLMQ-----EGQPVAYASRALTSTEQNYAQIEKEL  779
+            P+L         +   DAS TGLGA L Q     E +PVAY  RALT  E NY+  E EL
+Sbjct  65   PILAMPRYDRPFIGCSDASVTGLGAVLAQMNDENEERPVAYWGRALTKAETNYSVTELEL  124
+
+Query  780  LAVVFGFEKFHQFTY  794
+            LAV+   + + Q+ +
+Sbjct  125  LAVISCLKAWRQYLW  139
+
+
+>gb|ECK70908.1| hypothetical protein GOS_6305172, partial [marine metagenome]
+Length=278
+
+ Score = 67.8 bits (164),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 53/200 (27%), Positives = 88/200 (44%), Gaps = 13/200 (7%)
+
+Query  672  RLLGVVNYLTKFLGNLSDICEPIRTLTHKDA---IWNWTHEHDEAFKNIKTAVCNVPVLR  728
+            R  G++ +  K + N+S +  P      K A     + T     AF+ +K A+ +   LR
+Sbjct  2    RFAGMMQFYHKHIENISYLLAPFYECKAKGANHAQLSRTLRFLAAFEALKQALRDATALR  61
+
+Query  729  YFDSRLNTVLQCDASETG-LGATLMQEG--------QPVAYASRALTSTEQNYAQIEKEL  779
+              D      +  DA+  G +GA L Q          +P+A+ SR    TE+ Y   ++E 
+Sbjct  62   RPDYSKTFYIDVDAATVGGIGAVLSQRSDENDPDSHEPLAFYSRRFDPTERGYPGRDQEC  121
+
+Query  780  LAVVFGFEKFHQFTYGRRVVVESDHKPLETISKKALHKAPKRLQRMLLRLQLYDFEIIYK  839
+            + +     ++  +  G R +V +DHK L+ +     H    R+    L++Q Y  EI Y 
+Sbjct  122  MGLTEAIVEWRPYILGARTIVRTDHKSLKWL-LTCQHPDGSRVAGWALKIQEYGVEIEYI  180
+
+Query  840  KGKDMHIADTLSRAYLQNSC  859
+             GKD  + D +SR+     C
+Sbjct  181  SGKDHIVPDCISRSMEAQVC  200
+
+
+>gb|ECG29738.1| hypothetical protein GOS_6338271, partial [marine metagenome]
+Length=307
+
+ Score = 67.8 bits (164),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 60/274 (22%), Positives = 107/274 (39%), Gaps = 34/274 (12%)
+
+Query  948   ERCVIPRCMRRDILDQIHT--HIGVEGCLNRARQCVFWPNMTSEIKDFIGKCEACQSFAR  1005
+             E+ V+P  +R  I+  +H   H+       R R+  +W  M  ++ DF+  C  CQ    
+Sbjct  2     EQVVVPESLREKIIMAVHGVGHVSRLKTYQRLREFCYWRGMLKQVSDFVKHCGVCQQHGP  61
+
+Query  1006  KQCKEPLLNHDVPDRPWAKVGTDIFTLDDNN----------------YLVTVDYFSNFFE  1049
+                  PL  H    RP  K   D   L  +                  +V VD +S F  
+Sbjct  62    APPSVPLEGHPSAKRPGEKWMMDCLHLSPDGGSFDRKSKLPLGPFTALIVAVDVYSRFAV  121
+
+Query  1050  IDKLEDMTSRCVIG-KLKQHFARHGIPNQLVSDNAQTFKSEKFKQFTLQWDFEHVTSSAR  1108
+             +  + D+ S  +    L + +  +G P ++++D    FK + F++   + + +   S A 
+Sbjct  122   VAPIRDLNSETIARFLLSEIYGPYGHPYEILTDGGPEFK-KHFEKACSELEIKRHRSIAY  180
+
+Query  1109  YPQSNGKAESAVKRAKSLIKKCKHSHTDPM---------LALLNLRNTPLQS-----TGY  1154
+             + + +GK E   +   S++ K        +          A+L   ++  ++     TG 
+Sbjct  181   HAKGHGKVERLHQTLLSMLSKAIREEDQKVSKKWVDLVPYAVLAYNSSVHRALSQGYTGI  240
+
+Query  1155  SPAEQSMNRQTRTLLPTKESLLRPKTLINVKTNL  1188
+             SPAE  + R+   L P  E    P     +K N+
+Sbjct  241   SPAEAFLGRRLLMLPPADEEPTLPLQPGELKQNI  274
+
+
+>gb|EBJ86083.1| hypothetical protein GOS_8827830, partial [marine metagenome]
+Length=108
+
+ Score = 64.3 bits (155),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 33/85 (39%), Positives = 46/85 (54%), Gaps = 0/85 (0%)
+
+Query  487  RICIDPKPLNKALKRSHYPLPIIEDLLPELSEAKVFSKCDVKNAFWHVKLDEESSYLTTF  546
+            R+ ID   LNKA ++ HYPLP I+ +L  LS+   F   D    F  + + +E    TTF
+Sbjct  11   RMVIDFFKLNKATRKYHYPLPFIDQMLERLSKHTHFCFLDGYFGFSQISVPKEDQDKTTF  70
+
+Query  547  ETPFGRYRWNKMPFGISPAPEYFQQ  571
+              PF  + +  MPFG+  AP  FQ+
+Sbjct  71   TCPFVTFAYRHMPFGLCNAPATFQR  95
+
+
+>gb|ECK68338.1| hypothetical protein GOS_6396431, partial [marine metagenome]
+Length=122
+
+ Score = 64.3 bits (155),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 38/113 (34%), Positives = 62/113 (55%), Gaps = 6/113 (5%)
+
+Query  692  EPIRTLTHKDA--IWNWTHEHDEAFKNIKTAVCNVPVLRYFDSRLNTVLQCDASETGLGA  749
+            +P+  L  KD     +WT  H +A   +K  + + PVLR  D  +   +  DA +  +G+
+Sbjct  3    QPLNELLKKDVDVPSSWTKLHSDAVTELKRRLTSYPVLRQPDPNVPFEIIGDACDYAIGS  62
+
+Query  750  TLMQ--EGQP--VAYASRALTSTEQNYAQIEKELLAVVFGFEKFHQFTYGRRV  798
+             L+Q  +G+P  VA++SRAL   E NY+  EKE L++++  +KF  +    RV
+Sbjct  63   ALVQRHDGRPCVVAFSSRALHGAELNYSVQEKECLSIIYSLQKFRHYVLVSRV  115
+
+
+  Database: Proteins from WGS metagenomic projects (env_nr).
+    Posted date:  May 2, 2015  6:28 AM
+  Number of letters in database: 1,357,634,480
+  Number of sequences in database:  6,865,992
+
+Lambda      K        H
+   0.318    0.133    0.393 
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140 
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6865992
+Number of Hits to DB: 175908828
+Number of extensions: 7458412
+Number of successful extensions: 19881
+Number of sequences better than 100: 28
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 19878
+Number of HSP's successfully gapped: 28
+Length of query: 1335
+Length of database: 1357634480
+Length adjustment: 138
+Effective length of query: 1197
+Effective length of database: 410127584
+Effective search space: 490922718048
+Effective search space used: 490922718048
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 72 (32.3 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
+
+
+
+
