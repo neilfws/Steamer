@@ -11,7 +11,7 @@ From the [PNAS article](http://www.pnas.org/content/111/39/14175.full) we obtain
 ### 2. Initial BLAST searches at NCBI website
 Before embarking on further computational work, we try BLAST of the query sequences at the NCBI website.
 
-Neither nucleotide vs. nucleotide (blastn, nr database) nor protein vs. translated nucleotide (tblastn, nr database ocean metagenome subset) returned results. However, protein vs. protein (blastp, metagenomic proteins env_nr database) returned results with hits to GOSindicating that further work is worthwhile.
+Neither nucleotide vs. nucleotide (blastn, nr database) nor protein vs. translated nucleotide (tblastn, nr database ocean metagenome subset) returned results. However, protein vs. protein (blastp, metagenomic proteins env_nr database) returned results with hits to GOS indicating that further work is worthwhile.
 
 * [graphical summary](https://github.com/neilfws/Steamer/blob/master/data/blastp_v_env_nr.png)
 * [BLAST report txt format](https://github.com/neilfws/Steamer/blob/master/data/P4T0K2VM015-Alignment.txt)
