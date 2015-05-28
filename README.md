@@ -41,6 +41,8 @@ The results, with number of hits where E <= 10 (the default value):
 * [tblastn](https://github.com/neilfws/Steamer/blob/master/data/steamer_v_gosasm_tblastn.tsv) (347 hits)
 * [tblastx](https://github.com/neilfws/Steamer/blob/master/data/steamer_v_gosasm_tblastx.tsv) (503 hits)
 
+The default blastn algorithm is _megablast_ (expects high similarity) so 0 hits is not surprising. Using -task blastn returns hits but the best E = 0.003 across only short (~ 80 nt) alignment lengths.
+
 ### 5. Processing BLAST data
 First we extract column 2 (hits) from the BLAST output files and write the (unique) accessions to new files:
 
